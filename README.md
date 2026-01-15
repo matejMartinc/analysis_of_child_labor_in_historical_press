@@ -31,7 +31,7 @@ The study tests the feasibility of using few-shot prompting to scale historian-d
 
 ### Prerequisites
 
-* Python 3.8+
+* Python 3.11+
 * A Google Gemini API Key ([Get one here](https://aistudio.google.com/))
 
 ### Installation
