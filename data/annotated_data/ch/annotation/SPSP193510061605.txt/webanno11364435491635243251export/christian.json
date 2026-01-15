@@ -1,0 +1,117 @@
+{"_context" : {
+    "_types" : {
+      "Chunk" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "FeatureDefinition" : {
+        "_feature_types" : {"layer" : "_ref" } }, 
+      "LayerDefinition" : { }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Chunk",  "DocumentAnnotation",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "FeatureDefinition",  "LayerDefinition",  "Sofa" ] }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "FeatureDefinition" : [
+        {"layer" : 837,  "name" : "referenceRelation",  "uiName" : "referenceRelation" }, 
+        {"layer" : 837,  "name" : "referenceType",  "uiName" : "referenceType" }, 
+        {"layer" : 848,  "name" : "value",  "uiName" : "Features" }, 
+        {"layer" : 855,  "name" : "PosValue",  "uiName" : "XPOS" }, 
+        {"layer" : 855,  "name" : "coarseValue",  "uiName" : "UPOS" }, 
+        {"layer" : 866,  "name" : "identifier",  "uiName" : "identifier" }, 
+        {"layer" : 866,  "name" : "value",  "uiName" : "value" }, 
+        {"layer" : 877,  "name" : "value",  "uiName" : "Lemma" }, 
+        {"layer" : 884,  "name" : "value",  "uiName" : "Form" }, 
+        {"layer" : 891,  "name" : "arguments",  "uiName" : "arguments" }, 
+        {"layer" : 891,  "name" : "category",  "uiName" : "category" }, 
+        {"layer" : 902,  "name" : "chunkValue",  "uiName" : "Tag" }, 
+        {"layer" : 909,  "name" : "DependencyType",  "uiName" : "Relation" }, 
+        {"layer" : 909,  "name" : "flavor",  "uiName" : "Flavor" }, 
+        {"layer" : 920,  "name" : "operation",  "uiName" : "Operation" }, 
+        {"layer" : 920,  "name" : "value",  "uiName" : "Correction" } ], 
+      "LayerDefinition" : [837,  848,  855,  866,  877,  884,  891,  902,  909,  920 ], 
+      "DocumentMetaData" : [
+        {"sofa" : 1,  "end" : 206,  "language" : "x-unspecified",  "documentTitle" : "SPSP193510061605.txt",  "documentId" : "christian",  "documentUri" : "file:/home/inception/repository/project/35/document/3064/source/christian",  "collectionId" : "file:/home/inception/repository/project/35/document/3064/source/",  "documentBaseUri" : "file:/home/inception/repository/project/35/document/3064/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "name" : "ChildLabor",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies (v2)",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "name" : "Named Entity tags",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags (v2)",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 205 } ], 
+      "Token" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 16 }, 
+        {"sofa" : 1,  "begin" : 16,  "end" : 17 }, 
+        {"sofa" : 1,  "begin" : 17,  "end" : 24 }, 
+        {"sofa" : 1,  "begin" : 24,  "end" : 25 }, 
+        {"sofa" : 1,  "begin" : 25,  "end" : 32 }, 
+        {"sofa" : 1,  "begin" : 32,  "end" : 33 }, 
+        {"sofa" : 1,  "begin" : 33,  "end" : 42 }, 
+        {"sofa" : 1,  "begin" : 42,  "end" : 43 }, 
+        {"sofa" : 1,  "begin" : 44,  "end" : 53 }, 
+        {"sofa" : 1,  "begin" : 53,  "end" : 54 }, 
+        {"sofa" : 1,  "begin" : 54,  "end" : 62 }, 
+        {"sofa" : 1,  "begin" : 62,  "end" : 63 }, 
+        {"sofa" : 1,  "begin" : 63,  "end" : 70 }, 
+        {"sofa" : 1,  "begin" : 70,  "end" : 71 }, 
+        {"sofa" : 1,  "begin" : 71,  "end" : 81 }, 
+        {"sofa" : 1,  "begin" : 81,  "end" : 82 }, 
+        {"sofa" : 1,  "begin" : 82,  "end" : 93 }, 
+        {"sofa" : 1,  "begin" : 93,  "end" : 94 }, 
+        {"sofa" : 1,  "begin" : 94,  "end" : 109 }, 
+        {"sofa" : 1,  "begin" : 109,  "end" : 110 }, 
+        {"sofa" : 1,  "begin" : 110,  "end" : 123 }, 
+        {"sofa" : 1,  "begin" : 123,  "end" : 124 }, 
+        {"sofa" : 1,  "begin" : 124,  "end" : 128 }, 
+        {"sofa" : 1,  "begin" : 128,  "end" : 129 }, 
+        {"sofa" : 1,  "begin" : 129,  "end" : 136 }, 
+        {"sofa" : 1,  "begin" : 136,  "end" : 137 }, 
+        {"sofa" : 1,  "begin" : 137,  "end" : 143 }, 
+        {"sofa" : 1,  "begin" : 143,  "end" : 144 }, 
+        {"sofa" : 1,  "begin" : 144,  "end" : 155 }, 
+        {"sofa" : 1,  "begin" : 155,  "end" : 156 }, 
+        {"sofa" : 1,  "begin" : 156,  "end" : 161 }, 
+        {"sofa" : 1,  "begin" : 161,  "end" : 162 }, 
+        {"sofa" : 1,  "begin" : 162,  "end" : 166 }, 
+        {"sofa" : 1,  "begin" : 166,  "end" : 167 }, 
+        {"sofa" : 1,  "begin" : 167,  "end" : 176 }, 
+        {"sofa" : 1,  "begin" : 176,  "end" : 177 }, 
+        {"sofa" : 1,  "begin" : 177,  "end" : 186 }, 
+        {"sofa" : 1,  "begin" : 186,  "end" : 187 }, 
+        {"sofa" : 1,  "begin" : 187,  "end" : 194 }, 
+        {"sofa" : 1,  "begin" : 194,  "end" : 195 }, 
+        {"sofa" : 1,  "begin" : 195,  "end" : 204 }, 
+        {"sofa" : 1,  "begin" : 204,  "end" : 205 } ], 
+      "Chunk" : [
+        {"sofa" : 1,  "begin" : 4,  "end" : 16,  "chunkValue" : "Social Attitudes" }, 
+        {"sofa" : 1,  "begin" : 19,  "end" : 24,  "chunkValue" : "Education" }, 
+        {"sofa" : 1,  "begin" : 129,  "end" : 136 } ] } }, 
+  "_referenced_fss" : {
+    "1" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "　　賣報童子是我們最可憐的小朋友！他們自幼失了學，把報賣給人家看，却看不懂自己賣的報，　然他們也很願意讀書，但祗可惜沒有人敎，要進髙貴的學校，那是根本也談不到的了，現在可有一件很好的消息，想小朋友們很願意聽聞與贊助的吧！那卽是本埠威賽路小菜塲東首，居然也有「賣報兒童工學團」的校所成立了，校門口的白油綠底的標語：寫着讀了書，就會看報，你們願意讀書的都來！與你們把報賣給人看，自己也能看報嗎？確是都很醒目的標語。\n" }, 
+    "837" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.coref.type.Coreference",  "uiName" : "Coreference" }, 
+    "848" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures",  "uiName" : "Morphological features" }, 
+    "891" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.semantics.type.SemPred",  "uiName" : "SemPred" }, 
+    "909" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "uiName" : "Dependency" }, 
+    "920" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "uiName" : "Orthography Correction" }, 
+    "866" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "uiName" : "Named entity" }, 
+    "855" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "uiName" : "Part of speech" }, 
+    "902" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "uiName" : "Chunk" }, 
+    "884" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "uiName" : "Surface form" }, 
+    "877" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma",  "uiName" : "Lemma" } } }

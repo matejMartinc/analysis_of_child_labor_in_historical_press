@@ -40,4 +40,7 @@ def convert_jsonl_to_formatted_json(input_file_path, output_file_path):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-convert_jsonl_to_formatted_json('articles_en_corpus_annotated.jsonl', 'articles_en_corpus_annotated_gemini_2.5_pro.json')
+convert_jsonl_to_formatted_json('results/articles_en_corpus_annotated.jsonl', 'results/articles_en_corpus_annotated_gemini_2.5_pro.json')
+convert_jsonl_to_formatted_json('results/articles_ch_corpus_annotated.jsonl', 'results/articles_ch_corpus_annotated_gemini_2.5_pro.json')
+convert_jsonl_to_formatted_json('results/articles_de_corpus_annotated.jsonl', 'results/articles_de_corpus_annotated_gemini_2.5_pro.json')
+convert_jsonl_to_formatted_json('results/articles_fr_corpus_annotated.jsonl', 'results/articles_fr_corpus_annotated_gemini_2.5_pro.json')

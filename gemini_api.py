@@ -127,35 +127,6 @@ def get_labels(input_json):
     return prompt
 
 
-
-def get_articles_to_annotate(path, n=5):
-    files = os.listdir(path)
-    counter = 0
-    article_texts = []
-    article_names = []
-    for f in files:
-        dir = os.listdir(os.path.join(path, f))
-        counter += 1
-        if counter <= n:
-            pass
-        else:
-            for sub_f in dir:
-                article_names.append(f)
-                dir2 = os.path.join(path, f, sub_f)
-                files2 = os.listdir(dir2)
-                for sub_sub_f in files2:
-                    if sub_sub_f.endswith('.json'):
-                        input_json = os.path.join(dir2, sub_sub_f)
-                        with open(input_json, "r", encoding='utf-8') as jf:
-                            data = json.load(jf)
-                            full_text = data['_referenced_fss']['1']['sofaString']
-                            article_texts.append(full_text)
-
-    return article_texts, article_names
-
-
-
-
 def get_examples(path, n=5):
     files = os.listdir(path)
     counter = 0
@@ -206,10 +177,23 @@ def get_examples(path, n=5):
     return "\n".join(article_prompts)
 
 
-def get_articles_from_corpus(path):
-    df = pd.read_csv(path, encoding='utf8', sep=',')
-    article_texts = df['article_text'].tolist()
-    article_names = df['date'] + "---" + df['id'].tolist()
+def get_articles_from_corpus(path, language):
+    if language == "french":
+        df = pd.read_csv(path, encoding='utf8', sep=',')
+        df = df.astype(str)
+        article_texts = df['article_text'].tolist()
+        article_names = df['date'] + "---" + df['id'].tolist()
+    elif language == "chinese":
+        df = pd.read_csv(path, encoding='utf8', sep=',')
+        df = df.astype(str)
+        article_texts = df['text'].tolist()
+        article_names = (df['date'] + "---" + df['id']).tolist()
+    else:
+        df = pd.read_csv(path, encoding='utf8', sep=';')
+        df = df.astype(str)
+        article_texts = df['fulltext'].tolist()
+        article_names = (df['date'] + "---" + df['id']).tolist()
+
     return article_texts, article_names
 
 
@@ -285,53 +269,53 @@ async def process_grouped_documents(documents_grouped, output_path, current_chun
 
 
 if __name__ == '__main__':
-    #english
-    #input_json = "data_unziped/child-labor-prq_project_2025-09-25_1707.zip/exportedproject8445656513168862557.json"
-    #path_articles = "data_unziped/child-labor-prq_project_2025-09-25_1707.zip/annotation"
-    #output_path = 'articles_en_corpus_annotated.jsonl'
-    #corpus_path = "data/Child_Labor_2025-09-10_Corp.csv"
 
-    #french
-    input_json = "data_unziped/child-labor-bnf_project_2025-09-25_1708.zip/exportedproject8149120778901053903.json"
-    path_articles = "data_unziped/child-labor-bnf_project_2025-09-25_1708.zip/annotation"
-    output_path = 'articles_fr_corpus_annotated.jsonl'
-    corpus_path = "data/Travail_enfants_2025-09-10_Corp.csv"
+    languages = {
+        "english": {
+            "input_json": "data/annotated_data/en/exportedproject8445656513168862557.json",
+            "path_articles": "data/annotated_data/en/annotation",
+            "output_path": "results/articles_en_corpus_annotated.jsonl",
+            "corpus_path": "data/test_data/en/Child_Labor_2025-09-10_Corp.csv"
+        },
+        "french": {
+            "input_json": "data/annotated_data/fr/exportedproject8149120778901053903.json",
+            "path_articles": "data/annotated_data/fr/annotation",
+            "output_path": "results/articles_fr_corpus_annotated.jsonl",
+            "corpus_path": "data/test_data/fr/Travail_enfants_2025-09-10_Corp.csv"
+        },
+        "chinese": {
+            "input_json": "data/annotated_data/ch/exportedproject4384858266144915893.json",
+            "path_articles": "data/annotated_data/ch/annotation",
+            "output_path": "results/articles_ch_corpus_annotated.jsonl",
+            "corpus_path": "data/test_data/ch/Tonggong_2025-09-10_Corp.csv"
+        }
+    }
 
-    #chinese
-    #input_json = "data_unziped/child-labor-sb_project_2025-09-25_1707.zip/exportedproject4384858266144915893.json"
-    #path_articles = "data_unziped/child-labor-sb_project_2025-09-25_1707.zip/annotation"
-    #output_path = 'articles_ch_corpus_annotated.jsonl'
-    #corpus_path = "data/Tonggong_2025-09-10_Corp.csv"
+    for language in languages.keys():
 
-
-    all_docs = []
-    n = 5
-    prompt1 = "You are a history expert specializing in the study of child labor. Your task is to annotate passages in historical newspaper articles that discuss child labor. You will tag segments of the text according to the specific aspect of the discourse they represent.\n"
-    prompt1 += "Below is a list of tags with descriptions of what each tag covers. Use these tags to annotate the provided text.\n\nAnnotation Tags and Descriptions:\n\n"
-    prompt1 += get_labels(input_json)
-    prompt2 = "Here are examples of news articles annotated according to the tags defined above:\n"
-    examples = get_examples(path_articles, n=n)
-    prompt2 += examples
-    instructions = prompt1 + prompt2
-    #articles, ids = get_articles_to_annotate(path_articles, n=n)
-    articles, ids = get_articles_from_corpus(corpus_path)
-    for id, art in zip(ids, articles):
-        #art = " ".join(art.split())
-        whole_prompt = instructions
-        whole_prompt += "Please annotate the news article below in the same manner as in the example above. Return only annotations and nothing else. Do not change the extracted text in any way.\n"
-        whole_prompt += "\n--- News article ---\n"
-        whole_prompt += art
-        whole_prompt += "\n--- Annotations ---\n"
-        doc = {'id': id, 'prompt': whole_prompt, 'article': art}
-        #print(whole_prompt)
-        #print(id)
-        #print(art)
-        #print('---------------------------------------------')
-        all_docs.append(doc)
-
-    chunks = 10
-    for i in range(0, len(all_docs), chunks):
-        print("Chunk:", i)
-        asyncio.run(process_grouped_documents(enumerate(all_docs[i:i + chunks]), output_path, i))
+        print("Processing", language)
+        all_docs = []
+        n = 5
+        prompt1 = "You are a history expert specializing in the study of child labor. Your task is to annotate passages in historical newspaper articles that discuss child labor. You will tag segments of the text according to the specific aspect of the discourse they represent.\n"
+        prompt1 += "Below is a list of tags with descriptions of what each tag covers. Use these tags to annotate the provided text.\n\nAnnotation Tags and Descriptions:\n\n"
+        prompt1 += get_labels(languages[language]["input_json"])
+        prompt2 = "Here are examples of news articles annotated according to the tags defined above:\n"
+        examples = get_examples(languages[language]["path_articles"], n=n)
+        prompt2 += examples
+        instructions = prompt1 + prompt2
+        articles, ids = get_articles_from_corpus(languages[language]["corpus_path"], language)
+        for id, art in zip(ids, articles):
+            #art = " ".join(art.split())
+            whole_prompt = instructions
+            whole_prompt += "Please annotate the news article below in the same manner as in the example above. Return only annotations and nothing else. Do not change the extracted text in any way.\n"
+            whole_prompt += "\n--- News article ---\n"
+            whole_prompt += art
+            whole_prompt += "\n--- Annotations ---\n"
+            doc = {'id': id, 'prompt': whole_prompt, 'article': art}
+            all_docs.append(doc)
+        chunks = 10
+        for i in range(0, len(all_docs), chunks):
+            print("Chunk:", i)
+            asyncio.run(process_grouped_documents(enumerate(all_docs[i:i + chunks]), languages[language]["output_path"], i))
 
 

@@ -1,0 +1,114 @@
+{"_context" : {
+    "_types" : {
+      "Chunk" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "FeatureDefinition" : {
+        "_feature_types" : {"layer" : "_ref" } }, 
+      "LayerDefinition" : { }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Chunk",  "DocumentAnnotation",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "FeatureDefinition",  "LayerDefinition",  "Sofa" ] }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "FeatureDefinition" : [
+        {"layer" : 1046,  "name" : "referenceRelation",  "uiName" : "referenceRelation" }, 
+        {"layer" : 1046,  "name" : "referenceType",  "uiName" : "referenceType" }, 
+        {"layer" : 1057,  "name" : "value",  "uiName" : "Features" }, 
+        {"layer" : 1064,  "name" : "PosValue",  "uiName" : "XPOS" }, 
+        {"layer" : 1064,  "name" : "coarseValue",  "uiName" : "UPOS" }, 
+        {"layer" : 1075,  "name" : "identifier",  "uiName" : "identifier" }, 
+        {"layer" : 1075,  "name" : "value",  "uiName" : "value" }, 
+        {"layer" : 1086,  "name" : "value",  "uiName" : "Lemma" }, 
+        {"layer" : 1093,  "name" : "value",  "uiName" : "Form" }, 
+        {"layer" : 1100,  "name" : "arguments",  "uiName" : "arguments" }, 
+        {"layer" : 1100,  "name" : "category",  "uiName" : "category" }, 
+        {"layer" : 1111,  "name" : "chunkValue",  "uiName" : "Tag" }, 
+        {"layer" : 1118,  "name" : "DependencyType",  "uiName" : "Relation" }, 
+        {"layer" : 1118,  "name" : "flavor",  "uiName" : "Flavor" }, 
+        {"layer" : 1129,  "name" : "operation",  "uiName" : "Operation" }, 
+        {"layer" : 1129,  "name" : "value",  "uiName" : "Correction" } ], 
+      "LayerDefinition" : [1046,  1057,  1064,  1075,  1086,  1093,  1100,  1111,  1118,  1129 ], 
+      "DocumentMetaData" : [
+        {"sofa" : 1,  "end" : 132,  "language" : "x-unspecified",  "documentTitle" : "SPSP193007221509.txt",  "documentId" : "christian",  "documentUri" : "file:/home/inception/repository/project/35/document/3058/source/christian",  "collectionId" : "file:/home/inception/repository/project/35/document/3058/source/",  "documentBaseUri" : "file:/home/inception/repository/project/35/document/3058/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "name" : "ChildLabor",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies (v2)",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "name" : "Named Entity tags",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags (v2)",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 131 } ], 
+      "Token" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 14 }, 
+        {"sofa" : 1,  "begin" : 14,  "end" : 15 }, 
+        {"sofa" : 1,  "begin" : 15,  "end" : 21 }, 
+        {"sofa" : 1,  "begin" : 21,  "end" : 22 }, 
+        {"sofa" : 1,  "begin" : 22,  "end" : 28 }, 
+        {"sofa" : 1,  "begin" : 28,  "end" : 29 }, 
+        {"sofa" : 1,  "begin" : 29,  "end" : 33 }, 
+        {"sofa" : 1,  "begin" : 33,  "end" : 34 }, 
+        {"sofa" : 1,  "begin" : 34,  "end" : 40 }, 
+        {"sofa" : 1,  "begin" : 40,  "end" : 41 }, 
+        {"sofa" : 1,  "begin" : 41,  "end" : 58 }, 
+        {"sofa" : 1,  "begin" : 58,  "end" : 59 }, 
+        {"sofa" : 1,  "begin" : 59,  "end" : 63 }, 
+        {"sofa" : 1,  "begin" : 63,  "end" : 64 }, 
+        {"sofa" : 1,  "begin" : 64,  "end" : 69 }, 
+        {"sofa" : 1,  "begin" : 69,  "end" : 70 }, 
+        {"sofa" : 1,  "begin" : 70,  "end" : 74 }, 
+        {"sofa" : 1,  "begin" : 74,  "end" : 75 }, 
+        {"sofa" : 1,  "begin" : 75,  "end" : 80 }, 
+        {"sofa" : 1,  "begin" : 80,  "end" : 81 }, 
+        {"sofa" : 1,  "begin" : 81,  "end" : 88 }, 
+        {"sofa" : 1,  "begin" : 88,  "end" : 89 }, 
+        {"sofa" : 1,  "begin" : 89,  "end" : 97 }, 
+        {"sofa" : 1,  "begin" : 97,  "end" : 98 }, 
+        {"sofa" : 1,  "begin" : 98,  "end" : 104 }, 
+        {"sofa" : 1,  "begin" : 104,  "end" : 105 }, 
+        {"sofa" : 1,  "begin" : 105,  "end" : 111 }, 
+        {"sofa" : 1,  "begin" : 111,  "end" : 112 }, 
+        {"sofa" : 1,  "begin" : 112,  "end" : 116 }, 
+        {"sofa" : 1,  "begin" : 116,  "end" : 117 }, 
+        {"sofa" : 1,  "begin" : 117,  "end" : 122 }, 
+        {"sofa" : 1,  "begin" : 122,  "end" : 123 }, 
+        {"sofa" : 1,  "begin" : 123,  "end" : 130 }, 
+        {"sofa" : 1,  "begin" : 130,  "end" : 131 } ], 
+      "Chunk" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 11,  "chunkValue" : "Workplace" }, 
+        {"sofa" : 1,  "begin" : 24,  "end" : 28,  "chunkValue" : "Economic Context" }, 
+        {"sofa" : 1,  "begin" : 29,  "end" : 33,  "chunkValue" : "Economic Context" }, 
+        {"sofa" : 1,  "begin" : 34,  "end" : 40,  "chunkValue" : "Economic Context" }, 
+        {"sofa" : 1,  "begin" : 41,  "end" : 49,  "chunkValue" : "Labor Movement" }, 
+        {"sofa" : 1,  "begin" : 59,  "end" : 63,  "chunkValue" : "Labor Movement" }, 
+        {"sofa" : 1,  "begin" : 118,  "end" : 122,  "chunkValue" : "Labor Movement" }, 
+        {"sofa" : 1,  "begin" : 124,  "end" : 130 } ] } }, 
+  "_referenced_fss" : {
+    "1" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "　　浦東陸家渡日華紗廠細紗間、一部份女童工、近以米價飛漲、百物昻貴、生活極感困苦、要求廠方增加工資未遂於上星期六夜班、一致停工、前日星期日、廠中休息、而昨日日班、除細紗問巳停外、粗紗間亦起而響應、於是全廠工人、因有連帶關係、無工可作、亦相繼停工、現風潮亦未解决、\n" }, 
+    "1100" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.semantics.type.SemPred",  "uiName" : "SemPred" }, 
+    "1057" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures",  "uiName" : "Morphological features" }, 
+    "1046" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.coref.type.Coreference",  "uiName" : "Coreference" }, 
+    "1075" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "uiName" : "Named entity" }, 
+    "1086" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma",  "uiName" : "Lemma" }, 
+    "1064" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "uiName" : "Part of speech" }, 
+    "1111" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "uiName" : "Chunk" }, 
+    "1129" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "uiName" : "Orthography Correction" }, 
+    "1118" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "uiName" : "Dependency" }, 
+    "1093" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "uiName" : "Surface form" } } }

@@ -1,0 +1,6 @@
+*.npy
+*.pyc
+.idea
+data/annotated_data/de/*
+data/test_data/de/*
+results/articles_de_corpus_annotated_gemini_2.5_pro.json

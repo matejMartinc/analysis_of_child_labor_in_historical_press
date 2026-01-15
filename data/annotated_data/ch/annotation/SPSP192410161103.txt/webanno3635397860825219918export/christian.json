@@ -1,0 +1,83 @@
+{"_context" : {
+    "_types" : {
+      "Chunk" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "FeatureDefinition" : {
+        "_feature_types" : {"layer" : "_ref" } }, 
+      "LayerDefinition" : { }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Chunk",  "DocumentAnnotation",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "FeatureDefinition",  "LayerDefinition",  "Sofa" ] }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "FeatureDefinition" : [
+        {"layer" : 843,  "name" : "referenceRelation",  "uiName" : "referenceRelation" }, 
+        {"layer" : 843,  "name" : "referenceType",  "uiName" : "referenceType" }, 
+        {"layer" : 854,  "name" : "value",  "uiName" : "Features" }, 
+        {"layer" : 861,  "name" : "PosValue",  "uiName" : "XPOS" }, 
+        {"layer" : 861,  "name" : "coarseValue",  "uiName" : "UPOS" }, 
+        {"layer" : 872,  "name" : "identifier",  "uiName" : "identifier" }, 
+        {"layer" : 872,  "name" : "value",  "uiName" : "value" }, 
+        {"layer" : 883,  "name" : "value",  "uiName" : "Lemma" }, 
+        {"layer" : 890,  "name" : "value",  "uiName" : "Form" }, 
+        {"layer" : 897,  "name" : "arguments",  "uiName" : "arguments" }, 
+        {"layer" : 897,  "name" : "category",  "uiName" : "category" }, 
+        {"layer" : 908,  "name" : "chunkValue",  "uiName" : "Tag" }, 
+        {"layer" : 915,  "name" : "DependencyType",  "uiName" : "Relation" }, 
+        {"layer" : 915,  "name" : "flavor",  "uiName" : "Flavor" }, 
+        {"layer" : 926,  "name" : "operation",  "uiName" : "Operation" }, 
+        {"layer" : 926,  "name" : "value",  "uiName" : "Correction" } ], 
+      "LayerDefinition" : [843,  854,  861,  872,  883,  890,  897,  908,  915,  926 ], 
+      "DocumentMetaData" : [
+        {"sofa" : 1,  "end" : 305,  "language" : "x-unspecified",  "documentTitle" : "SPSP192410161103.txt",  "documentId" : "christian",  "documentUri" : "file:/home/inception/repository/project/35/document/3053/source/christian",  "collectionId" : "file:/home/inception/repository/project/35/document/3053/source/",  "documentBaseUri" : "file:/home/inception/repository/project/35/document/3053/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "name" : "ChildLabor",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies (v2)",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "name" : "Named Entity tags",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags (v2)",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 304 } ], 
+      "Token" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 304 } ], 
+      "Chunk" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 7,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 10,  "end" : 13,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 26,  "end" : 34,  "chunkValue" : "Economic Context" }, 
+        {"sofa" : 1,  "begin" : 38,  "end" : 45,  "chunkValue" : "Legal Framework" }, 
+        {"sofa" : 1,  "begin" : 152,  "end" : 155,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 160,  "end" : 165,  "chunkValue" : "Labor Movement" }, 
+        {"sofa" : 1,  "begin" : 228,  "end" : 236,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 250,  "end" : 257,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 258,  "end" : 261,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 282,  "end" : 290,  "chunkValue" : "Legal Framework" } ] } }, 
+  "_referenced_fss" : {
+    "1" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "　　童工委員會之報告工部局已爲初次之考慮惟以該問題於經濟方面所關匪細而租界内採取適當之方法後能否保證租界外毘連各地同爲有效力之施行更屬實際上最大之困難所以考慮此問題時對於環境必須有相當之注意夫原則上之同意固極易易但以各當道統治效能之不同對於同意之方法能否悉爲有效力之施行其事絶異夫此舉之目的固有若金科玉律工部局對於增進此輩童工命運之任何志願不容不予以同意然因無法定之權力故於救濟方法可行者甚鮮現聞關心此事之個人及圑體等仍欲繼續從事進行消除此創始之艱難而擬於納稅西人特别會議中提出議案以期面過一附律授權工部局辦理此事至工部局對於此種目的極表同情其樂於採用可行之方法以解决此童工之問題俾管理可收實效固無庸贅述者也\n" }, 
+    "915" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "uiName" : "Dependency" }, 
+    "897" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.semantics.type.SemPred",  "uiName" : "SemPred" }, 
+    "926" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "uiName" : "Orthography Correction" }, 
+    "854" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures",  "uiName" : "Morphological features" }, 
+    "908" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "uiName" : "Chunk" }, 
+    "890" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "uiName" : "Surface form" }, 
+    "872" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "uiName" : "Named entity" }, 
+    "843" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.coref.type.Coreference",  "uiName" : "Coreference" }, 
+    "883" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma",  "uiName" : "Lemma" }, 
+    "861" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "uiName" : "Part of speech" } } }

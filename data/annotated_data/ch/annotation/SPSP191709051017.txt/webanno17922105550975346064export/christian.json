@@ -1,0 +1,80 @@
+{"_context" : {
+    "_types" : {
+      "Chunk" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "FeatureDefinition" : {
+        "_feature_types" : {"layer" : "_ref" } }, 
+      "LayerDefinition" : { }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Chunk",  "DocumentAnnotation",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "FeatureDefinition",  "LayerDefinition",  "Sofa" ] }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "FeatureDefinition" : [
+        {"layer" : 730,  "name" : "referenceRelation",  "uiName" : "referenceRelation" }, 
+        {"layer" : 730,  "name" : "referenceType",  "uiName" : "referenceType" }, 
+        {"layer" : 741,  "name" : "value",  "uiName" : "Features" }, 
+        {"layer" : 748,  "name" : "PosValue",  "uiName" : "XPOS" }, 
+        {"layer" : 748,  "name" : "coarseValue",  "uiName" : "UPOS" }, 
+        {"layer" : 759,  "name" : "identifier",  "uiName" : "identifier" }, 
+        {"layer" : 759,  "name" : "value",  "uiName" : "value" }, 
+        {"layer" : 770,  "name" : "value",  "uiName" : "Lemma" }, 
+        {"layer" : 777,  "name" : "value",  "uiName" : "Form" }, 
+        {"layer" : 784,  "name" : "arguments",  "uiName" : "arguments" }, 
+        {"layer" : 784,  "name" : "category",  "uiName" : "category" }, 
+        {"layer" : 795,  "name" : "chunkValue",  "uiName" : "Tag" }, 
+        {"layer" : 802,  "name" : "DependencyType",  "uiName" : "Relation" }, 
+        {"layer" : 802,  "name" : "flavor",  "uiName" : "Flavor" }, 
+        {"layer" : 813,  "name" : "operation",  "uiName" : "Operation" }, 
+        {"layer" : 813,  "name" : "value",  "uiName" : "Correction" } ], 
+      "LayerDefinition" : [730,  741,  748,  759,  770,  777,  784,  795,  802,  813 ], 
+      "DocumentMetaData" : [
+        {"sofa" : 1,  "end" : 238,  "language" : "x-unspecified",  "documentTitle" : "SPSP191709051017.txt",  "documentId" : "christian",  "documentUri" : "file:/home/inception/repository/project/35/document/3031/source/christian",  "collectionId" : "file:/home/inception/repository/project/35/document/3031/source/",  "documentBaseUri" : "file:/home/inception/repository/project/35/document/3031/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "name" : "ChildLabor",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies (v2)",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "name" : "Named Entity tags",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags (v2)",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 237 } ], 
+      "Token" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 237 } ], 
+      "Chunk" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 11,  "chunkValue" : "Workplace" }, 
+        {"sofa" : 1,  "begin" : 19,  "end" : 26,  "chunkValue" : "Education" }, 
+        {"sofa" : 1,  "begin" : 133,  "end" : 139,  "chunkValue" : "Education" }, 
+        {"sofa" : 1,  "begin" : 142,  "end" : 148,  "chunkValue" : "Education" }, 
+        {"sofa" : 1,  "begin" : 148,  "end" : 154,  "chunkValue" : "Social Attitudes" }, 
+        {"sofa" : 1,  "begin" : 203,  "end" : 211,  "chunkValue" : "Metaphors" }, 
+        {"sofa" : 1,  "begin" : 219,  "end" : 236,  "chunkValue" : "Metaphors" } ] } }, 
+  "_referenced_fss" : {
+    "1" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "　　楊樹浦北首德大紗廠素於工業場中廣行職業敎育第一班實習生曾由廠經理穆藕初君親自講授棉業中全部要道期此輩靑年人人儲備組織全廠之能力爲他日推廣棉業之中堅人物此外更有藝徒敎育該項藝徒大半係南巿貧民學校畢業學生每當機工餘時敎授生活上必需之知識藝能亦已三年於兹自今秋始又舉辦童工敎育分班授課期增高粗工程度增進社會幸福業於前日舉行始業式穆君親向諸失學童子諄諄訓勉敎員干君機工領袖鍾君等相繼作懇切之訓話諸生雖學無根柢但大都生長苦社會中不乏頭腦清醒之人一經訓練於生活上人格上其獲益當不淺也\n" }, 
+    "759" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "uiName" : "Named entity" }, 
+    "784" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.semantics.type.SemPred",  "uiName" : "SemPred" }, 
+    "802" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "uiName" : "Dependency" }, 
+    "730" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.coref.type.Coreference",  "uiName" : "Coreference" }, 
+    "813" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "uiName" : "Orthography Correction" }, 
+    "770" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma",  "uiName" : "Lemma" }, 
+    "748" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "uiName" : "Part of speech" }, 
+    "741" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures",  "uiName" : "Morphological features" }, 
+    "777" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "uiName" : "Surface form" }, 
+    "795" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "uiName" : "Chunk" } } }

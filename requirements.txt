@@ -1,0 +1,8 @@
+matplotlib
+pandas
+numpy
+genai
+nest_asyncio
+RapidFuzz
+docx
+aiolimiter

@@ -1,0 +1,108 @@
+{"_context" : {
+    "_types" : {
+      "Chunk" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "FeatureDefinition" : {
+        "_feature_types" : {"layer" : "_ref" } }, 
+      "LayerDefinition" : { }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Chunk",  "DocumentAnnotation",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "FeatureDefinition",  "LayerDefinition",  "Sofa" ] }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "FeatureDefinition" : [
+        {"layer" : 853,  "name" : "referenceRelation",  "uiName" : "referenceRelation" }, 
+        {"layer" : 853,  "name" : "referenceType",  "uiName" : "referenceType" }, 
+        {"layer" : 864,  "name" : "value",  "uiName" : "Features" }, 
+        {"layer" : 871,  "name" : "PosValue",  "uiName" : "XPOS" }, 
+        {"layer" : 871,  "name" : "coarseValue",  "uiName" : "UPOS" }, 
+        {"layer" : 882,  "name" : "identifier",  "uiName" : "identifier" }, 
+        {"layer" : 882,  "name" : "value",  "uiName" : "value" }, 
+        {"layer" : 893,  "name" : "value",  "uiName" : "Lemma" }, 
+        {"layer" : 900,  "name" : "value",  "uiName" : "Form" }, 
+        {"layer" : 907,  "name" : "arguments",  "uiName" : "arguments" }, 
+        {"layer" : 907,  "name" : "category",  "uiName" : "category" }, 
+        {"layer" : 918,  "name" : "chunkValue",  "uiName" : "Tag" }, 
+        {"layer" : 925,  "name" : "DependencyType",  "uiName" : "Relation" }, 
+        {"layer" : 925,  "name" : "flavor",  "uiName" : "Flavor" }, 
+        {"layer" : 936,  "name" : "operation",  "uiName" : "Operation" }, 
+        {"layer" : 936,  "name" : "value",  "uiName" : "Correction" } ], 
+      "LayerDefinition" : [853,  864,  871,  882,  893,  900,  907,  918,  925,  936 ], 
+      "DocumentMetaData" : [
+        {"sofa" : 1,  "end" : 140,  "language" : "x-unspecified",  "documentTitle" : "SPSP193612310815.txt",  "documentId" : "christian",  "documentUri" : "file:/home/inception/repository/project/35/document/3065/source/christian",  "collectionId" : "file:/home/inception/repository/project/35/document/3065/source/",  "documentBaseUri" : "file:/home/inception/repository/project/35/document/3065/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "name" : "ChildLabor",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies (v2)",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "name" : "Named Entity tags",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags (v2)",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 1,  "end" : 139 } ], 
+      "Token" : [
+        {"sofa" : 1,  "end" : 13 }, 
+        {"sofa" : 1,  "begin" : 13,  "end" : 14 }, 
+        {"sofa" : 1,  "begin" : 14,  "end" : 20 }, 
+        {"sofa" : 1,  "begin" : 20,  "end" : 21 }, 
+        {"sofa" : 1,  "begin" : 21,  "end" : 35 }, 
+        {"sofa" : 1,  "begin" : 35,  "end" : 36 }, 
+        {"sofa" : 1,  "begin" : 36,  "end" : 40 }, 
+        {"sofa" : 1,  "begin" : 40,  "end" : 41 }, 
+        {"sofa" : 1,  "begin" : 41,  "end" : 54 }, 
+        {"sofa" : 1,  "begin" : 54,  "end" : 55 }, 
+        {"sofa" : 1,  "begin" : 55,  "end" : 61 }, 
+        {"sofa" : 1,  "begin" : 61,  "end" : 62 }, 
+        {"sofa" : 1,  "begin" : 62,  "end" : 66 }, 
+        {"sofa" : 1,  "begin" : 66,  "end" : 67 }, 
+        {"sofa" : 1,  "begin" : 67,  "end" : 74 }, 
+        {"sofa" : 1,  "begin" : 74,  "end" : 75 }, 
+        {"sofa" : 1,  "begin" : 75,  "end" : 85 }, 
+        {"sofa" : 1,  "begin" : 85,  "end" : 86 }, 
+        {"sofa" : 1,  "begin" : 86,  "end" : 95 }, 
+        {"sofa" : 1,  "begin" : 95,  "end" : 96 }, 
+        {"sofa" : 1,  "begin" : 96,  "end" : 100 }, 
+        {"sofa" : 1,  "begin" : 100,  "end" : 101 }, 
+        {"sofa" : 1,  "begin" : 101,  "end" : 109 }, 
+        {"sofa" : 1,  "begin" : 109,  "end" : 110 }, 
+        {"sofa" : 1,  "begin" : 110,  "end" : 118 }, 
+        {"sofa" : 1,  "begin" : 118,  "end" : 119 }, 
+        {"sofa" : 1,  "begin" : 119,  "end" : 129 }, 
+        {"sofa" : 1,  "begin" : 129,  "end" : 130 }, 
+        {"sofa" : 1,  "begin" : 130,  "end" : 131 }, 
+        {"sofa" : 1,  "begin" : 131,  "end" : 138 }, 
+        {"sofa" : 1,  "begin" : 138,  "end" : 139 } ], 
+      "Chunk" : [
+        {"sofa" : 1,  "end" : 5,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 21,  "end" : 30,  "chunkValue" : "Workplace" }, 
+        {"sofa" : 1,  "begin" : 36,  "end" : 40,  "chunkValue" : "Legal Framework" }, 
+        {"sofa" : 1,  "begin" : 68,  "end" : 74,  "chunkValue" : "Legal Framework" }, 
+        {"sofa" : 1,  "begin" : 76,  "end" : 81 } ] } }, 
+  "_referenced_fss" : {
+    "1" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "羅斯福總統今日與記者團談話、力稱雇用童工、工時過長及工資過少等不良習慣、應卽停止、總統以爲實業界中有十分之一、以取巧之方法、與人競爭、故必須設法禁止、自全國復興法失效以來、實業界對於工時工資、已無限制、以後倘再有所舉動、亦當全國普遍實行、非各州單獨可以救濟云、（二十九日國民電）\n" }, 
+    "893" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma",  "uiName" : "Lemma" }, 
+    "907" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.semantics.type.SemPred",  "uiName" : "SemPred" }, 
+    "871" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "uiName" : "Part of speech" }, 
+    "925" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "uiName" : "Dependency" }, 
+    "853" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.coref.type.Coreference",  "uiName" : "Coreference" }, 
+    "882" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "uiName" : "Named entity" }, 
+    "936" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "uiName" : "Orthography Correction" }, 
+    "900" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "uiName" : "Surface form" }, 
+    "918" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "uiName" : "Chunk" }, 
+    "864" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures",  "uiName" : "Morphological features" } } }

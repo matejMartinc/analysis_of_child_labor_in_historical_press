@@ -1,0 +1,80 @@
+{"_context" : {
+    "_types" : {
+      "Chunk" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "DocumentMetaData" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "FeatureDefinition" : {
+        "_feature_types" : {"layer" : "_ref" } }, 
+      "LayerDefinition" : { }, 
+      "Sentence" : {
+        "_feature_types" : {"sofa" : "_ref" } }, 
+      "Sofa" : {
+        "_feature_types" : {"sofaArray" : "_ref" } }, 
+      "TagsetDescription" : {
+        "_feature_types" : {"sofa" : "_ref",  "tags" : "_ref" } }, 
+      "Token" : {
+        "_feature_types" : {"sofa" : "_ref",  "parent" : "_ref",  "lemma" : "_ref",  "stem" : "_ref",  "pos" : "_ref",  "morph" : "_ref",  "form" : "_ref" } }, 
+      "Annotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Chunk",  "DocumentAnnotation",  "Sentence",  "TagsetDescription",  "Token" ] }, 
+      "AnnotationBase" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["Annotation" ] }, 
+      "TOP" : {
+        "_subtypes" : ["AnnotationBase",  "FeatureDefinition",  "LayerDefinition",  "Sofa" ] }, 
+      "DocumentAnnotation" : {
+        "_feature_types" : {"sofa" : "_ref" }, 
+        "_subtypes" : ["DocumentMetaData" ] } } }, 
+  "_views" : {
+    "_InitialView" : {
+      "FeatureDefinition" : [
+        {"layer" : 766,  "name" : "referenceRelation",  "uiName" : "referenceRelation" }, 
+        {"layer" : 766,  "name" : "referenceType",  "uiName" : "referenceType" }, 
+        {"layer" : 777,  "name" : "value",  "uiName" : "Features" }, 
+        {"layer" : 784,  "name" : "PosValue",  "uiName" : "XPOS" }, 
+        {"layer" : 784,  "name" : "coarseValue",  "uiName" : "UPOS" }, 
+        {"layer" : 795,  "name" : "identifier",  "uiName" : "identifier" }, 
+        {"layer" : 795,  "name" : "value",  "uiName" : "value" }, 
+        {"layer" : 806,  "name" : "value",  "uiName" : "Lemma" }, 
+        {"layer" : 813,  "name" : "value",  "uiName" : "Form" }, 
+        {"layer" : 820,  "name" : "arguments",  "uiName" : "arguments" }, 
+        {"layer" : 820,  "name" : "category",  "uiName" : "category" }, 
+        {"layer" : 831,  "name" : "chunkValue",  "uiName" : "Tag" }, 
+        {"layer" : 838,  "name" : "DependencyType",  "uiName" : "Relation" }, 
+        {"layer" : 838,  "name" : "flavor",  "uiName" : "Flavor" }, 
+        {"layer" : 849,  "name" : "operation",  "uiName" : "Operation" }, 
+        {"layer" : 849,  "name" : "value",  "uiName" : "Correction" } ], 
+      "LayerDefinition" : [766,  777,  784,  795,  806,  813,  820,  831,  838,  849 ], 
+      "DocumentMetaData" : [
+        {"sofa" : 1,  "end" : 93,  "language" : "x-unspecified",  "documentTitle" : "SPSP193008191625.txt",  "documentId" : "christian",  "documentUri" : "file:/home/inception/repository/project/35/document/3059/source/christian",  "collectionId" : "file:/home/inception/repository/project/35/document/3059/source/",  "documentBaseUri" : "file:/home/inception/repository/project/35/document/3059/source/",  "isLastSegment" : false } ], 
+      "TagsetDescription" : [
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "name" : "ChildLabor",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "name" : "UD Universal Dependencies (v2)",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "name" : "Named Entity tags",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "name" : "Operation",  "input" : false }, 
+        {"sofa" : 1,  "layer" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "name" : "UD Universal POS tags (v2)",  "input" : false } ], 
+      "Sentence" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 92 } ], 
+      "Token" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 92 } ], 
+      "Chunk" : [
+        {"sofa" : 1,  "begin" : 2,  "end" : 5,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 7,  "end" : 14,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 22,  "end" : 27,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 35,  "end" : 46,  "chunkValue" : "Legal Framework" }, 
+        {"sofa" : 1,  "begin" : 52,  "end" : 58,  "chunkValue" : "Legal Framework" }, 
+        {"sofa" : 1,  "begin" : 73,  "end" : 76,  "chunkValue" : "Government Role" }, 
+        {"sofa" : 1,  "begin" : 83,  "end" : 88,  "chunkValue" : "Government Role" } ] } }, 
+  "_referenced_fss" : {
+    "1" : {"_type" : "Sofa",  "sofaNum" : 1,  "sofaID" : "_InitialView",  "mimeType" : "text",  "sofaString" : "　　外交部近接駐新嘉坡總領事唐榴來電略以近據新埠英政府通告凡由華來新之童工如年齡未滿十四歲者在此三個月內不准入口登岸特電奉達希即轉行所屬遵照等因聞外交部准電後業已咨請上海市政府查照飭知\n" }, 
+    "838" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.dependency.Dependency",  "uiName" : "Dependency" }, 
+    "831" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.syntax.type.chunk.Chunk",  "uiName" : "Chunk" }, 
+    "849" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.transform.type.SofaChangeAnnotation",  "uiName" : "Orthography Correction" }, 
+    "784" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS",  "uiName" : "Part of speech" }, 
+    "795" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity",  "uiName" : "Named entity" }, 
+    "813" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.SurfaceForm",  "uiName" : "Surface form" }, 
+    "766" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.coref.type.Coreference",  "uiName" : "Coreference" }, 
+    "777" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.morph.MorphologicalFeatures",  "uiName" : "Morphological features" }, 
+    "806" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Lemma",  "uiName" : "Lemma" }, 
+    "820" : {"_type" : "LayerDefinition",  "name" : "de.tudarmstadt.ukp.dkpro.core.api.semantics.type.SemPred",  "uiName" : "SemPred" } } }

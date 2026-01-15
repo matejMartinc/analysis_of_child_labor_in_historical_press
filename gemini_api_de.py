@@ -172,19 +172,6 @@ def get_examples(input_folder, json_with_labels, file_names, n=5):
             article_prompts.append(article_prompt)
     return "\n".join(article_prompts)
 
-def get_articles_to_annotate(files, path, n=5):
-    counter = 0
-    article_texts = []
-    article_names = []
-    for f in files:
-        counter += 1
-        if counter <= n:
-            pass
-        else:
-            article_names.append(f)
-            full_text, base_name = read_docx(os.path.join(path, f))
-            article_texts.append(full_text)
-    return article_texts, article_names
 
 def get_articles_from_corpus(files, path):
     article_texts = []
@@ -197,9 +184,6 @@ def get_articles_from_corpus(files, path):
                 article_texts.append(text)
                 article_names.append(f)
     return article_texts, article_names
-
-
-
 
 async def process_document(i, document, delay=1):
     """
@@ -275,9 +259,9 @@ async def process_grouped_documents(documents_grouped, output_path, current_chun
 
 if __name__ == '__main__':
     n = 5
-    output_path = 'articles_de_corpus_annotated.jsonl'
-    input_folder = "german_data/atlasti_annotation-german"
-    json_with_labels = "german_data/training_extended.json"
+    output_path = 'results/articles_de_corpus_annotated.jsonl'
+    input_folder = "data/annotated_data/de/atlasti_annotation-german"
+    json_with_labels = "data/annotated_data/de/training_extended.json"
     file_names = os.listdir(input_folder)
     examples = get_examples(input_folder, json_with_labels, file_names, n)
     prompt1 = """You are a history expert specializing in the study of child labor. Your task is to annotate passages in historical newspaper articles that discuss child labor. You will tag segments of the text according to the specific aspect of the discourse they represent.
@@ -405,23 +389,18 @@ Description:
 
 Here are examples of news articles annotated according to the tags defined above. Note that the same text snippet can have more than one tag and that tags are separated by semicolon.\n\n"""
     instructions = prompt1 + examples
-    #articles, ids = get_articles_to_annotate(file_names, input_folder, n=n)
-    corpus_path = "german_data/corpus_kinderarbeit_onb-labs"
+    corpus_path = "data/test_data/de/corpus_kinderarbeit_onb-labs"
     corpus_files = os.listdir(corpus_path)
     articles, ids = get_articles_from_corpus(corpus_files, corpus_path)
     all_docs = []
     print("All corpus files:", len(corpus_files))
     for id, art in zip(ids, articles):
-        print(id, art)
         whole_prompt = instructions
         whole_prompt += "Please annotate the news article below in the same manner as in the example above. Return only annotations and nothing else. Do not change the extracted text in any way.\n\n"
         whole_prompt += "\n--- News article ---\n"
         whole_prompt += art
         whole_prompt += "\n--- Annotations ---\n"
         doc = {'id': id, 'prompt': whole_prompt, 'article': art}
-        #print(id)
-        #print(art)
-        #print('---------------------------------------------')
         all_docs.append(doc)
 
     chunks = 10
