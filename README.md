@@ -1,6 +1,6 @@
 # Analysis of Child Labor in the Historical Press (Pilot Study)
 
-This repository contains the data, code, and experimental results for the **"Child Labor in the Press"** pilot study. This project demonstrates the **DiCHAi historian-in-the-loop approach**, combining expert historical annotation with Large Language Models (LLMs) to analyze child labor discourse across French, German, Chinese, and English-language newspapers (1890–1950).
+This repository contains the data, code, and experimental results for the **"Child Labor in the Press"** pilot study. This project demonstrates the approach of the project **aIMPACT: Artificial Intelligence in the Loop of History: Mass Politics and Press Conceptions in Europe and China (1890s–1950s)**, combining expert historical annotation with Large Language Models (LLMs) to analyze child labor discourse across French, German, Chinese, and English-language newspapers (1890–1950).
 
 ## 📖 Project Overview
 
@@ -11,6 +11,9 @@ The study tests the feasibility of using few-shot prompting to scale historian-d
 * **France:** Coverage peaked leading up to the 1892 Child Labor Law, followed by a sharp decline.
 * **Germany:** Discourse was embedded in class conflict and wartime mobilization, persisting through the Weimar era.
 * **China (Chinese & English Press):** A sustained "interwar crescendo" in the 1920s–30s, driven by nationalist reforms, strikes, and international oversight (ILO).
+* **overall:**
+  1) There is a strong alignment between the political orientation of newspapers and topic relevancy;
+  2) Labor issues are more relevant in urban contexts: topic prevalence in national newspapers is much higher than in regional, rural-areas newspapers;
 
 ---
 
