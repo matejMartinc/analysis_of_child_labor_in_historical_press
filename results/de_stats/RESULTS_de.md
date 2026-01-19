@@ -31,3 +31,14 @@ In which categories child labor was mentioned by year can finally be seen in the
 **Overall comment**
 Manually checking some of the data this output confirms that the annotation steps worked ok. There still a lot of over- or under-categorization and the main problems come from faulty OCR and missing layout detection and article segmentation respectively. **This means: the challenges of working with digital newspaper data remains high – with bottlenecks still being OCR and article segmentation – despite the advances that can be achieved with Few-Shot-Prompting.**
 
+**Literature**
+* Döller, Florentine, Der lange Kampf um geregelte Arbeitszeiten, in: *Kompetenz*, 19.04.2019, https://kompetenz-online.at/2019/04/10/der-lange-kampf-um-geregelte-arbeitszeiten/, (accessed 01.11.2025).
+* Hawelka, Fritz/Österreichischer Kinderschutzkongress 2 1913 Salzburg, Die gesetzlichen Bestimmungen über die Kinderarbeit in Österreich, Ungarn, dem Deutschen Reiche, der Schweiz, England, Frankreich und Italien, Vienna 1913.
+* Jankowski, Hellin, Kinderarbeit in Österreich: Verboten und doch gibt es sie noch, in: *Die Presse*, 10.07.2017, https://www.diepresse.com/5231602/kinderarbeit-in-oesterreich-verboten-und-doch-gibt-es-sie-noch, (accessed 01.11.2025).
+* Kinderarbeit, in: Wien Geschichte Wiki, 17.10.2025, https://www.geschichtewiki.wien.gv.at/Kinderarbeit, (accessed 01.11.2025).
+* Kulka, Lepoldine, Neues Frauenleben, no. 10 (1913).
+* Österreich Arbeitsstatistisches Amt/ K.K. Arbeitsstatistisches Amt im Handelsministerium, Erhebung über die Kinderarbeit in Österreich im Jahre ..., Vienna 1910–1913.
+* Papathanasiu, Maria, Zwischen Arbeit, Spiel und Schule: die ökonomische Funktion der Kinder ärmerer Schichten in Österreich 1880–1939. PhD-Thesis, University of Vienna 1999.
+* Papathanassiou, Maria, Approaches to the History of Child Labour in Europe, in: *Jahrbuch Für Wirtschaftsgeschichte*, vol. 48, no. 2, 2007, pp. 231–42, https://doi.org/10.1524/jbwg.2007.48.2.231, (accessed 01.11.2025).
+* Schmitt, Stefanie Maria, Determinants of Child-Labor in Austria in 1908, MA-Thesis, University of Innsbruck 2018.
+* Žižek, Franz/Österreichischer Kinderschutzkongress 2 1913 Salzburg, Verbreitung und Erscheinungsformen der Kinderarbeit in Österreich, Vienna 1913.
