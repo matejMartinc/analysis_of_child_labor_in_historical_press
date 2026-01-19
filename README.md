@@ -11,7 +11,7 @@ The study tests the feasibility of using few-shot prompting to scale historian-d
 * **France:** Coverage peaked leading up to the 1892 Child Labor Law, followed by a sharp decline.
 * **Germany:** Discourse transistions from a necessity to a regulated issue with a peack in pre-wartime years, highlighting the demand for governemnt interventio.
 * **China (Chinese & English Press):** A sustained "interwar crescendo" in the 1920s–30s, driven by nationalist reforms, strikes, and international oversight (ILO).
-* **overall:**
+* **Overall:**
   1) Strong correlation between discourse and legislation suggesting that the newspapers acted as precursors and catalysts for social and labor legislation;
   2) There is a clear shift towards geovernment responsibility indicating a historical shift from grassroot protest to state-regulated labor protection;
   3) There is a strong alignment between the political orientation of newspapers and topic relevancy (and/or this could indicate newspapertitle-specific engagement);
@@ -101,6 +101,12 @@ python convert_to_json.py
 3. **Scaling:** The LLM processes thousands of articles, providing a scale difficult for manual reading.
 4. **Manual Verification:** Historians manually verified the validity of the automated annotation in ca. 25 cases per language.
 5. **Validation:** Results are cross-referenced with historical events (e.g., France’s 1892 law, China’s May 30th Movement, Child labor legislation in Austria 1859) to ensure analytical validity.
+
+## ⚖️Assessment:
+1. **OCR** remains a challenge - without good text, LLMs cannot perform good annotations;
+2. **OCR-LLM-correction** tends to overcorrect this historical text source, haluzination is a problem;
+3. **Layout/structure:** Faulty layout and missing structure recognition remain the bottleneck for article segementation which is needed to perform a reliable analyses of discourses. LLMs are not (yet) able to do this on complicated layout like newspaper images;
+4. **Scale** remains a crucial issue: the pilot study was performed on a small dataset, many more steps of verification, adaptation and validation would be needed.
 
 ---
 
