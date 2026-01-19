@@ -1,0 +1,213 @@
+German Annotation Tags and Descriptions:
+
+Tag: "Class and Social Hierarchy"
+Description:
+    • Class-based framings, assumptions, or conflicts around child labor and politics.
+    • Representations of the working class, poor, elites, or bourgeoisie.
+    • Class-based paternalism or disdain.
+    • Social mobility narratives (rags to riches vs. structural critique).
+    • Framing of child labor as a "necessary evil" for the poor.
+
+Tag: "Economic Context"
+Description:
+    • Family poverty and unemployment as drivers of child labor.
+    • Employers’ economic incentives (cheap labor, efficiency).
+    • Industrialization, modernization, and labor market pressures.
+    • Framing child labor as preparation for future industrial roles (vocational training), future good citizens.
+
+Tag: "Education"
+Description:
+    • Access to schooling as an alternative to child labor.
+    • Vocational education vs. general education debates.
+    • Role of schools in moral/social development (discipline, citizenship).
+    • Educational reform as a political or ideological tool.
+    • Critiques of schools (ineffectiveness, class bias, compulsion).
+    • School attendance laws and enforcement (truancy, age limits).
+    • Portrayals of teachers, curriculum, or school conditions.
+
+Tag: "Gender"
+Description:
+    • Gendered framing of labor roles (e.g., boys as future breadwinners, girls as vulnerable or morally endangered).
+    • Assumptions about appropriate work, protection, or education based on gender.
+    • Use of gender to evoke emotional response or moral urgency (e.g., emphasis on the suffering of young girls).
+    • Absence or marginalization of one gender in discussions of child labor, implying normative roles.
+
+Tag: "Government Role"
+Description:
+    • State responsibility: inspections, enforcement, regulation, or neglect.
+    • Municipal or local government involvement (工部局, prefectures, inspection bureaus).
+    • Community or civil society initiatives (schools, associations, factory-led reforms).
+
+Tag: "Health"
+Description:
+    • Physical effects: fatigue, illness, accidents, stunted growth.
+    • Educational deprivation and its consequences.
+    • Psychological, moral, and social effects (delinquency, loss of parental control, dignity).
+
+Tag: "Ideological Framing"
+Description:
+    • Use of political ideologies (e.g., capitalism, socialism, communism, liberalism, democracy) to frame labor reform as part of a broader societal vision.
+    • Arguments linking child labor to the failures or successes of particular economic systems.
+    • Portrayal of reform as a threat to freedom (capitalist/democratic framing) or as a step toward justice and equality (socialist/communist framing).
+    • Fear-mongering or aspirational rhetoric tying labor practices to ideological futures (e.g., "a socialist utopia" or "the decay of free enterprise").
+
+Tag: "International Dimension"
+Description:
+    • Use of foreign models and precedents to argue for reform.
+    • Comparisons between countries’ labor laws, inspection regimes, or industrial standards.
+    • Concerns about competitiveness and industrial modernization.
+
+Tag: "Labor Movement"
+Description:
+    • Strikes, worker consciousness, unionization, and collective demands.
+    • Child labor as part of broader labor struggles for hours, wages, and dignity.
+    • Links to adult labor rights (e.g., eight-hour day, union protections).
+
+Tag: "Legal Framework"
+Description:
+    • References to laws, decrees, or regulations (existing, proposed, or debated).
+    • Judicial treatment of child workers (age thresholds, liability, sentencing).
+    • International comparisons of legal frameworks (e.g., British Factory Acts, French child labor laws, Chinese court cases).
+
+Tag: "Metaphors"
+Description:
+    • Dramatic framing of child labor (e.g., “industrial revolution,” “terrible to visit the iron shops,” “the most pitiable little friends”).
+    • Symbolic use of children as markers of national crisis, social backwardness, or progress.
+
+Tag: "Political Affiliation"
+Description:
+    • Explicit or implicit references to political parties, movements, or ideologies (e.g., support from conservative or liberal factions).
+    • Quotations or paraphrasing of political figures or party platforms to support or criticize labor reform (e.g., Lord Salsbury supports the reform)
+    • Framing of labor issues in alignment with broader political agendas (e.g., national development, anti-socialism, class conflict).
+    • Partisan bias in the portrayal of reform opponents or advocates (e.g., own party is praised, other parties are criticized – biased protrayal)
+
+Tag: "Race, Ethnicity, and Colonialism"
+Description:
+    • Racial, ethnic, or national identity shaping labor discourse.
+    • Depictions of minority or migrant children.
+    • Racialized moral panic or stereotypes.
+    • National superiority or backwardness in labor practices.
+    • Reform as a means of “civilizing” or assimilating.
+
+Tag: "Religion and Morality"
+Description:
+    • Religious institutions, beliefs, or moral philosophies influencing labor discourse.
+    • Religious groups advocating for or against labor reform.
+    • Theological framing of work, childhood, duty, or charity.
+    • Sermons, missions, or church-led education/work alternatives.
+    • Moral reformers invoking religious duty.
+
+Tag: "Technological Change"
+Description:
+    • References to mechanization, industrial innovation, or new production methods impacting labor practices.
+    • Arguments that technological advancement reduces the need for child labor or makes it more dangerous.
+    • Concerns that reform may hinder industrial progress or competitiveness in a modernizing economy.
+    • Framing of technology as a symbol of progress, efficiency, or disruption in labor relations.
+
+Tag: "Social Attitudes"
+Description:
+    • Moral and ethical arguments (pity, compassion, social duty, hard work).
+    • Portrayals of “honorable employers” vs. negligent ones.
+    • Role of education and uplift in shaping “good citizens” or “pillars of industry.”
+    • Rhetorical appeals to social progress, national development, or republican ideals.
+    • Tying labor / non labor to crime
+
+Tag: "Workplace"
+Description:
+    • Description of factory, workshop, or street environments where children work.
+    • Hours, tasks, tools, machinery, physical dangers, and accidents.
+    • Cases of violence, abuse, or exploitation within workplaces.
+
+
+English, French and Chinese Annotation Tags and Descriptions:
+
+Tag: "Economic Context"
+Description:
+•	Family poverty and unemployment as drivers of child labor.
+•	Employers’ economic incentives (cheap labor, efficiency).
+•	Industrialization, modernization, and labor market pressures.
+•	Framing child labor as preparation for future industrial roles (vocational training), future good citizens.
+
+Tag: "Education"
+Description:
+•	Educational deprivation and its consequences.
+•	Barriers to schooling (poverty, distance, exclusion) and competing demands of work and study.
+•	Role of schools, alternative instruction, and policy debates (compulsory education, vocational training).
+•	Education framed as a path to social mobility, national progress, or moral uplift, often contrasted with ignorance and delinquency.
+
+Tag: "Gender"
+Description:
+•	 Gendered framing of labor roles (e.g., boys as future breadwinners, girls as vulnerable or morally endangered).
+•	Assumptions about appropriate work, protection, or education based on gender.
+•	Use of gender to evoke emotional response or moral urgency (e.g., emphasis on the suffering of young girls).
+•	Absence or marginalization of one gender in discussions of child labor, implying normative roles.
+
+Tag: "Government Role"
+Description:
+•	State responsibility: inspections, enforcement, regulation, or neglect.
+•	Municipal or local government involvement (工部局, prefectures, inspection bureaus).
+•	Community or civil society initiatives (schools, associations, factory-led reforms).
+
+Tag: "Health"
+Description:
+•	Physical effects: fatigue, illness, accidents, stunted growth.
+•	Educational deprivation and its consequences.
+•	Psychological, moral, and social effects (delinquency, loss of parental control, dignity).
+
+Tag: "Ideological Framing"
+Description:
+•	Use of political ideologies (e.g., capitalism, socialism, communism, liberalism, democracy) to frame labor reform as part of a broader societal vision.
+•	Arguments linking child labor to the failures or successes of particular economic systems.
+•	Portrayal of reform as a threat to freedom (capitalist/democratic framing) or as a step toward justice and equality (socialist/communist framing).
+•	Fear-mongering or aspirational rhetoric tying labor practices to ideological futures (e.g., "a socialist utopia" or "the decay of free enterprise").
+
+Tag: "International Dimension"
+Description:
+•	Use of foreign models and precedents to argue for reform.
+•	Comparisons between countries’ labor laws, inspection regimes, or industrial standards.
+•	Concerns about competitiveness and industrial modernization.
+
+Tag: "Labor Movement"
+Description:
+•	Strikes, worker consciousness, unionization, and collective demands.
+•	Child labor as part of broader labor struggles for hours, wages, and dignity.
+•	Links to adult labor rights (e.g., eight-hour day, union protections).
+
+Tag: "Legal Framework"
+Description:
+•	References to laws, decrees, or regulations (existing, proposed, or debated).
+•	Judicial treatment of child workers (age thresholds, liability, sentencing).
+•	International comparisons of legal frameworks (e.g., British Factory Acts, French child labor laws, Chinese court cases).
+
+Tag: "Metaphors"
+Description:
+•	Dramatic framing of child labor (e.g., “industrial revolution,” “terrible to visit the iron shops,” “the most pitiable little friends”).
+•	Symbolic use of children as markers of national crisis, social backwardness, or progress.
+
+Tag: "Political Affiliation"
+Description:
+•	Explicit or implicit references to political parties, movements, or ideologies (e.g., support from conservative or liberal factions).
+•	Quotations or paraphrasing of political figures or party platforms to support or criticize labor reform (e.g., Lord Salsbury supports the reform)
+•	Framing of labor issues in alignment with broader political agendas (e.g., national development, anti-socialism, class conflict).
+•	Partisan bias in the portrayal of reform opponents or advocates (e.g., own party is praised, other parties are criticized – biased protrayal)
+
+Tag: "Social Attitudes"
+Description:
+•	Moral and ethical arguments (pity, compassion, social duty, hard work).
+•	Portrayals of “honorable employers” vs. negligent ones.
+•	Role of education and uplift in shaping “good citizens” or “pillars of industry.”
+•	Rhetorical appeals to social progress, national development, or republican ideals.
+•	Tying labor / non labor to crime
+
+Tag: "Technological Change"
+Description:
+•	References to mechanization, industrial innovation, or new production methods impacting labor practices.
+•	Arguments that technological advancement reduces the need for child labor or makes it more dangerous.
+•	Concerns that reform may hinder industrial progress or competitiveness in a modernizing economy.
+•	Framing of technology as a symbol of progress, efficiency, or disruption in labor relations.
+
+Tag: "Workplace"
+Description:
+•	Description of factory, workshop, or street environments where children work.
+•	Hours, tasks, tools, machinery, physical dangers, and accidents.
+•	Cases of violence, abuse, or exploitation within workplaces.
