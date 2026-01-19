@@ -29,6 +29,7 @@ In which categories child labor was mentioned by year can finally be seen in the
 *Image 6: Distribution of Annotation Labels per Year*
 
 **Overall comment**
+
 Manually checking some of the data this output confirms that the annotation steps worked ok. There still a lot of over- or under-categorization and the main problems come from faulty OCR and missing layout detection and article segmentation respectively. **This means: the challenges of working with digital newspaper data remains high – with bottlenecks still being OCR and article segmentation – despite the advances that can be achieved with Few-Shot-Prompting.**
 
 **Literature**
