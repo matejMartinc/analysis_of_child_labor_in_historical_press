@@ -5,6 +5,7 @@ The training data for the German corpus consisted of a random selection of 10 lo
 The German corpus consisted of 1000 articles from the NewsEye Austrian press corpus (https://www.newseye.eu/) and included “articles” from the Neue Freie Presse, Illustrierte Kronen Zeitung, Innsbrucker Nachrichten and Arbeiterzeitung. Since the NewsEye corpus does not contain article segmentation, “articles” in this case are sentence-based search results of the keyword “Kinderarbeit” (child labor). This means the results can be short, few-word sentences or longer articles, parts of advertisements or image descriptions.
 
 *Selected Newspapers*
+
 **Neue Freie Presse**: existed between 1864 and 1939, intended as global-reaching medium; political orientation: fundamentally liberal tendency
 
 **Illustrierte Kronen Zeitung**: originally Österreichische Kronen Zeitung (1900-1905); existed between 1905 and 1941, intended as a paper who should reach „every Austrian”; political orientation: many changes from a popular entertainment magazine without specific political orientation into a newspaper increasingly supporting the Austria-Hungarian monarchy (including nationalistic and war-glorifying tone during WWI) and later by Nazi propaganda, and it served as the mouthpiece of the German Reich from 1938 onwards.
