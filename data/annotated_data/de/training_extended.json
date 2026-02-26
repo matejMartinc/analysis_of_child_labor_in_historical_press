@@ -1,0 +1,1684 @@
+[
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 0,
+    "end": 7,
+    "text": "Die Frau.",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 10,
+    "end": 93,
+    "text": ". Sozialdemokratische Monatsschrift für Politik, Wirtschaft, Frauenfragen und Literatur",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 341,
+    "end": 351,
+    "text": "Genossinnen, d",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 879,
+    "end": 1028,
+    "text": "die schlecht bekleidet in kaum geheizten Wohnungen sich befinden, die ohne wärmende Kleidung hinaus müssen, auf den Weg zur Arbeit, und Arbeit suchend, u",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 1073,
+    "end": 1320,
+    "text": "Wissenschaft und Technik haben der Menschheit so viel gegeben, ihre Errungenschaften bedeuten so Ungeheures, daß man es kaum zu fassen vermag, wie hilflos die Menschen den Gewalten gegenüberstehen, die nun wochenlang über uns ihre Geißel schwingen. Di",
+    "labels": [
+      "Technological Change"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 1326,
+    "end": 1477,
+    "text": "vermehrte Arbeitslosigkeit, die große Kälte, die Teuerung, die damit verbunden ist, alles das drückt auf die arbeitenden Massen wie eine ungeheure Last. Wi",
+    "labels": [
+      "Economic Context"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 1479,
+    "end": 1577,
+    "text": "Wieder müssen wir sagen, daß die Frauen wohl die unglücklichsten Opfer auch dieser Katastrophen sind. ",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 1581,
+    "end": 1598,
+    "text": "Jede Mutter opfert ih",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 1721,
+    "end": 1765,
+    "text": "Die Arbeitslosigkeit trifft Frauen wie Männer, u",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 1867,
+    "end": 2125,
+    "text": "dann stehen wir zweifelnd vor dieser Weltordnung, die gerade jenen Teil der Menschheit, der immer bereit ist, zu arbeiten und zu schaffen, so karg und stiefmütterlich versorgt hat, daß immer wieder sie die bedauernswertesten Opfer solcher Katastrophen werden.\nZu",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 2127,
+    "end": 2395,
+    "text": "Zu spät kommt dann für viele die großtönigste Philanthropie, wenn man zuerst hetzt und nörgelt an jeder Fürsorgemaßnahme, die für arme Menschen und für Fälle der Not geschaffen wird, weil sie auch das Einkommen oder das Vermögen der Reichen belasten oder besteuern muß. In",
+    "labels": [
+      "Class and Social Hierarchy",
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 2619,
+    "end": 2625,
+    "text": "Kranken, e",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3078,
+    "end": 3180,
+    "text": "Wir haben zwar ein Gesetz, das die Schulpflicht bis zum Ablauf des vierzehnten Lebensjahres vorschreibt. W",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3113,
+    "end": 3124,
+    "text": "Schulpflicht bi",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3183,
+    "end": 3372,
+    "text": "Wir haben ein neues Gesetz gemacht, wonach die Kinder bis zum Ablauf des Schuljahres in der Schule verbleiben müssen, selbst wenn sie im Laufe des Schuljahres vierzehn Jahre alt geworden sind. ",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3275,
+    "end": 3280,
+    "text": "Schule ve",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3376,
+    "end": 3638,
+    "text": "Wir haben ein Kinderarbeitsgesetz, das auch die Arbeit bis zum vierzehnten Lebensjahr verbietet, aber so viele Ausnahmen zuläßt, daß sowohl in der Landwirtschaft, als auch im Gewerbe die Arbeit von Kindern selbst unter vierzehn Jahren weiterbetrieben werden kann.\nSe",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3509,
+    "end": 3557,
+    "text": "sowohl in der Landwirtschaft, als auch im Gewerbe di",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3650,
+    "end": 3777,
+    "text": "Allerdings, das Gesetz erlaubt nur ausnahmsweise die Beschäftigung von Kindern zwischen dem zwölften und vierzehnten Lebensjahr. Ab",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3934,
+    "end": 3975,
+    "text": "ungesetzlichen Beschäftigung jener Kinder, di",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4074,
+    "end": 4223,
+    "text": "Arbeitslosigkeit in der erschreckenden Zahl von über 300.000, darunter ein Drittel weiblich, und daneben die Beschäftigung von minderjährigen Kindern.\nAl",
+    "labels": [
+      "Economic Context"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4136,
+    "end": 4164,
+    "text": "darunter ein Drittel weiblich, u",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4260,
+    "end": 4267,
+    "text": "Genossin Po",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4331,
+    "end": 4382,
+    "text": "Konvention von Genf über das Verbot der Kinderarbeit ni",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4467,
+    "end": 4578,
+    "text": "ob er glaube, daß Landwirtschaft und Gewerbe in Österreich auf die Arbeit dieser Kinder nicht verzichten könnten. D",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4485,
+    "end": 4510,
+    "text": "Landwirtschaft und Gewerbe in",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4621,
+    "end": 4684,
+    "text": "ob man die verheirateten Frauen von der Arbeit ausschließen soll, u",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4744,
+    "end": 4866,
+    "text": "schwache und zarte Kinder zu frühzeitiger Erwerbsarbeit angehalten und vielfach für Lebensdauer zu Krüppeln gemacht werden.\nSo",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4882,
+    "end": 4917,
+    "text": "kapitalistische Gesellschaftsordnung no",
+    "labels": [
+      "Ideological Framing",
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 4983,
+    "end": 5005,
+    "text": "demokratischen Republik le",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 5044,
+    "end": 5062,
+    "text": "Frauenversammlungen, d",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 5073,
+    "end": 5126,
+    "text": "Anlaß des zehnjährigen Jubiläums des Frauenwahlrechtes im",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 5164,
+    "end": 5174,
+    "text": "Rednerinnen di",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 5180,
+    "end": 5223,
+    "text": "Forderung nach der sozialen Republik erhoben, s",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 5299,
+    "end": 5317,
+    "text": "Frauenversammlungen üb",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 3460,
+    "end": 3502,
+    "text": "r verbietet, aber so viele Ausnahmen zuläßt, d",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 5180,
+    "end": 5257,
+    "text": "Forderung nach der sozialen Republik erhoben, so ist das nur allzu begreiflich. A",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 2768,
+    "end": 2930,
+    "text": "Als kürzlich im Parlament die Budgetdebatte abgeführt wurde, wurde vielfach Klage geführt über die Untätigkeit der Regierung in sozialer, fürsorgerischer Beziehung. E",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 2231,
+    "end": 2246,
+    "text": "Fürsorgemaßnahme, d",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_01031929_02-03",
+    "start": 2587,
+    "end": 2594,
+    "text": "Fürsorge fü",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 0,
+    "end": 20,
+    "text": "Arbeiterinnen Zeitung ",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 48,
+    "end": 72,
+    "text": "4\nDie Gesundheit des Kindes\n",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 186,
+    "end": 195,
+    "text": "d Kinderarzt,",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 238,
+    "end": 291,
+    "text": ", die Kinder zu schützen und deren Gesundheit zu fördern.",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 271,
+    "end": 280,
+    "text": "n Gesundheit ",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 374,
+    "end": 427,
+    "text": ", welchen ungeheuren Schaden die Kinderarbeit anrichtet.\n",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 382,
+    "end": 416,
+    "text": "n ungeheuren Schaden die Kinderarbeit ",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 429,
+    "end": 605,
+    "text": ".\nKinder, die früh in die Fabriken kommen, verlieren sofort ihre Frische, ihre Heiterkeit, und zeigen schon in den ersten Jahren Anzeichen von körperlichem und geistigem Rückgang. ",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 607,
+    "end": 760,
+    "text": ". Sie werden schwächlich, mager, leiden an Blutarmut und an einer ganzen Reihe von Krankheiten. Am schlimmsten ist, daß viele Kinder so früh sterben müssen.\n",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 765,
+    "end": 771,
+    "text": "n Rußland ",
+    "labels": [
+      "International Dimension"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 786,
+    "end": 856,
+    "text": "s gesetzlich verboten, Kinder unter 12 Jahren in Fabriken zu beschäftigen.",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 862,
+    "end": 911,
+    "text": "n Österreich ist das Alter auf 14 Jahre festgesetzt. ",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 955,
+    "end": 965,
+    "text": "e Fabrikanten ",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 859,
+    "end": 1023,
+    "text": ". In Österreich ist das Alter auf 14 Jahre festgesetzt. Aber auch dort gibt es Ausnahmen, und die Fabrikanten verstehen es sehr wohl, die bestehenden Gesetze zu umgehen",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 1027,
+    "end": 1156,
+    "text": ". Besonders schlimm ist es, wo man sich nicht entschließen kann, die Kinderarbeit vollständig zu verbieten, sondern bloß beschränkt.\n",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 1158,
+    "end": 1365,
+    "text": ".\nEs sind die am meisten verkommenen, heruntergekommenen Schichten der Bevölkerung, die ihre Kinder in den Fabriken verdingen müssen, und es sind die arbeitenden Klassen, die den schwersten Schaden davontragen.\n",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 1402,
+    "end": 1495,
+    "text": "ß eine große Zahl Kinder, die so jung in die Fabriken kommen, geistig und körperlich verkümmern. ",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 1623,
+    "end": 1726,
+    "text": ". Das heißt, die Kinderarbeit schädigt nicht nur das einzelne Kind, sondern auch die gesamte Gesellschaft.",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Arbeiterinnen_Zeitung_19011915",
+    "start": 1037,
+    "end": 1156,
+    "text": "s schlimm ist es, wo man sich nicht entschließen kann, die Kinderarbeit vollständig zu verbieten, sondern bloß beschränkt.\n",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 81,
+    "end": 123,
+    "text": " Arbeitern im Vereine die Augen aufgegangen; s",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 362,
+    "end": 378,
+    "text": "Social-Demokratie ei",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 614,
+    "end": 729,
+    "text": "wenn auch nicht von Regierunggseite, so doch von einer Seite, welche ziemlich nah mit der Regierung in Fühlung steht, d",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 736,
+    "end": 761,
+    "text": "Berliner Social Demokratie Of",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 825,
+    "end": 1204,
+    "text": "bei der Reichtstagswahl unsere Kandidaten im zweiten Bezirke zurückzögen und einen Schutzzöllner aufstellen ließen, den bekannten Herrn Slagau, umgekehrt die Herren bereit wären, alle unsere Forderungen in Bezug auf das Arbeiterschutzgesetz, den Normal-Arbeitstag, die Verkürzung der Arbeitszeit, Einschränkung der Frauen- und Kinderarbeit u. s. w. gutzuheißen und zu unterstützen. (",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 825,
+    "end": 847,
+    "text": "bei der Reichtstagswahl un",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1004,
+    "end": 1205,
+    "text": "alle unsere Forderungen in Bezug auf das Arbeiterschutzgesetz, den Normal-Arbeitstag, die Verkürzung der Arbeitszeit, Einschränkung der Frauen- und Kinderarbeit u. s. w. gutzuheißen und zu unterstützen. (h",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1122,
+    "end": 1163,
+    "text": "Einschränkung der Frauen- und Kinderarbeit u.",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1283,
+    "end": 1319,
+    "text": "500.000 Stimmen der Social-Demokratie gu",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1430,
+    "end": 1562,
+    "text": "arl Marx in Lonon von dem Geheimrath Lothar Bucher aufgefordert worden sei, und zwar mit Wissen der Regie-rung des Fürsten Bismarck, Art",
+    "labels": [
+      "Ideological Framing",
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1614,
+    "end": 1730,
+    "text": "aarenbörse und Waarenmarkt zu schreiben uns geht dann zur kritischen Würdigung des vorliegenden Gesetz-entwurfs über, wo",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1849,
+    "end": 2039,
+    "text": "ie Vorlage einen ganz gewaltigen Angriff auf das Privateigentum in der unmotiviertesten Weise unternimmt und der Social-Demokratie für künftige Fälle ein sehr bedenkliches Präcedenz schafft.",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Die_Presse_18091878_02",
+    "start": 1883,
+    "end": 1912,
+    "text": "ngriff auf das Privateigentum in ",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 0,
+    "end": 26,
+    "text": "Freie pädagogische Blätter, ",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 136,
+    "end": 178,
+    "text": " Lehrer und pädagogischer Fachschriftsteller]\n",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 209,
+    "end": 269,
+    "text": " In den meisten Ländern der Erde ist die Sklaverei abgeschafft. ",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 290,
+    "end": 516,
+    "text": " mußten Tausende von edeldenkenden Männern sich für die gute Sache mit allen ihren Kräften einsetzen; und nun es endlich dahin gekommen ist, freut man sich allgemein des Sieges, den die Humanität wider den Egoismus errungen hat. D",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 730,
+    "end": 919,
+    "text": " bestehen eben auch heute noch Zustände, und zwar in Europa, fast in allen Staaten, unser Oesterreich nicht ausgenommen, die, bei Licht besehen, sich von der Sklaverei blutwenig unterscheiden. ",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 922,
+    "end": 1013,
+    "text": " Die Lage der untersten Volksklassen, was ist sie denn viel anders als eine Art der Sklaverei? ",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1016,
+    "end": 1117,
+    "text": " Der arme Arbeiter heißt heute nicht mehr „leibeigen“, aber ist er es darum viel weniger als vor Zeiten? ",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1120,
+    "end": 1221,
+    "text": " Die Noth des Lebens treibt ihn Tag für Tag in die Frohn, und die treibende Noth ist ein gar harter Vogt;",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1326,
+    "end": 1406,
+    "text": " aber die Verhältnisse zwingen gleichwohl diesen, sich dem Herrn zu Füßen zu legen. ",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1450,
+    "end": 1559,
+    "text": " welche die Noth der unteren Klassen im Gefolge hat, ist die Verwendung von Kindern zur Arbeit in den Fabriken. U",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1525,
+    "end": 1558,
+    "text": " Kindern zur Arbeit in den Fabriken. ",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1642,
+    "end": 1727,
+    "text": " nirgends aber hat man den Muth gehabt, diese Art Kinderarbeit schlechthin zu verbieten; ",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1753,
+    "end": 1792,
+    "text": " Die Fabriksarbeit wird schlecht bezahlt; V",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1794,
+    "end": 1985,
+    "text": " Vater und Mutter verdienen zusammen nicht so viel, um die Familie auch nur nothdürftig ernähren zu können, also müssen auch die Kinder in Reih und Glied treten, um gegen den Hunger zu kämpfen. D",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1804,
+    "end": 1809,
+    "text": " Mutter v",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 1985,
+    "end": 2142,
+    "text": "n. Die Kinder daran hindern, ohne gleichzeitig der nothbedrängten Familie mit Unterstützungen zu Hilfe zu kommen, hieße Menschen morden, es wäre ein Verbrechen. ",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2187,
+    "end": 2209,
+    "text": " die Bildung das zweite; L",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2211,
+    "end": 2282,
+    "text": " Leben kann ohne Bildung bestehen, aber Bildung ohne Leben ist ein Unding. ",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2285,
+    "end": 2387,
+    "text": " Darum muß dem Kampfe gegen die Verwendung der Kinder zur Fabriksarbeit die Lösung der Frage vorangehen: W",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2389,
+    "end": 2479,
+    "text": " Wie soll die Gesellschaft den unteren Klassen in ihrem Kampfe um das Dasein zu Hilfe kommen? ",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2482,
+    "end": 2701,
+    "text": " Die soziale Frage Wir müssen aufrichtig bekennen, daß wir bei dieser Auffassung der Dinge niemals sonderlich davon erbaut waren, wenn wir die alsogleiche Entfernung schulpflichtiger Kin er aus den Fabriken fordern hörten. ",
+    "labels": [
+      "Political Affiliation",
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2636,
+    "end": 2686,
+    "text": " Entfernung schulpflichtiger Kin er aus den Fabriken f",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 2920,
+    "end": 3034,
+    "text": " die Verwendung jugendlicher Hilfsarbeiter nach Maßgabe des sanitären und moralischen Gesichtspunktes geregelt werde, ",
+    "labels": [
+      "Health",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 3145,
+    "end": 3203,
+    "text": " erstgenannten Punkte will ein Gesetzentwurf Rechnung tragen, ",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Freie_paedagogische_Blaetter_06121879",
+    "start": 3206,
+    "end": 3277,
+    "text": " den die Regierung dieser Tage im Hause der Abgeordneten eingebracht hat. D",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Linzer_Volksblatt_25111914_04",
+    "start": 136,
+    "end": 181,
+    "text": "Die Kinder der Schulen Undorf und Wintersaigen wo",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Linzer_Volksblatt_25111914_04",
+    "start": 225,
+    "end": 277,
+    "text": "Vaterlandsliebe bei allen in so schöner Weise äußert, ni",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Linzer_Volksblatt_25111914_04",
+    "start": 659,
+    "end": 817,
+    "text": "Eine Freude muß es sein für jeden, wenn er sieht, wie auch die Kinder in dieser schweren Zeit der Heimsuchung ihre Kräfte und ihr Können dem Vaterlande weihen.",
+    "labels": [
+      "Ideological Framing",
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 133,
+    "end": 162,
+    "text": "\nDer staatliche Arbeiterschutz.\nD",
+    "labels": [
+      "Government Role",
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 164,
+    "end": 297,
+    "text": "\nDie Gewerbeaufsicht war immer nicht nur eine bloß polizeiliche Institution zur Überwachung der Durchführung der Arbeiterschutzgesetze, s",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 328,
+    "end": 436,
+    "text": " besondere Stellung in den Betrieben zugedacht, um das Vertrauen der Unternehmer und Arbeitnehmer zu gewinnen. S",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 382,
+    "end": 423,
+    "text": " Vertrauen der Unternehmer und Arbeitnehmer z",
+    "labels": [
+      "Class and Social Hierarchy",
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 566,
+    "end": 659,
+    "text": " einer Aufklärungs- und Erziehungstätigkeit der Organisationen, Körperschaften und Vertretungen. ",
+    "labels": [
+      "Education"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 690,
+    "end": 869,
+    "text": "ch in Bayern zu dieser Arbeit die Gewerbeaufsichtsbeamten herangezogen, wie aus dem Beiheft zum Jahresbericht der bayerischen Gewerbeaufsicht für die Jahre 1933 und 1934 hervorgeht. D",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 950,
+    "end": 1165,
+    "text": " Buch bietet eine übersichtliche Darstellung der Hauptaufgaben des staatlichen Arbeitsschutzes, die den Vertrags-, Lohn-, Arbeitszeit- und Betriebsschutz sowie den erhöhten Schutz der Frauen und Jugendlichen umfassen. D",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 1122,
+    "end": 1155,
+    "text": " Schutz der Frauen und Jugendlichen u",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 1171,
+    "end": 1269,
+    "text": " Überwachungstätigkeit durch die Gewerbeaufsicht wird in dieser Veröffentlichung besonders erörtert. D",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 1271,
+    "end": 1496,
+    "text": " Dieser Instruktionsbehelf ist vorzüglich gegliedert, übersichtlich dargestellt und insbesondere für den mit der Materie Vertrauten lesenswert, zumal da auch die geschichtliche Entwicklung des Arbeiterschutzes dargestellt wird.\nU",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 1544,
+    "end": 1633,
+    "text": " Vergleich der sozialpolitischen Gesetzgebung Österreichs mit der des Deutschen Reiches auf: ",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 1887,
+    "end": 1899,
+    "text": " Führerprinzip e",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 1854,
+    "end": 1999,
+    "text": " Dem im Deutschen Reich geltenden Führerprinzip entspricht das Gesetz zur Ordnung der nationalen Arbeit (Arbeitsordnungsgesetz) vom 20. Jänner 1934, ",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 2058,
+    "end": 2244,
+    "text": " In Österreich wurden die Werksgemeinschaften in den Betrieben mit dem Gesetz vom 12. Juli 1934 eingeführt und damit auch die Vertretung der Arbeiter (die Vertrauensmänner) neu geschaffen.\nA",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 2246,
+    "end": 2692,
+    "text": "\nAls neue Behörde, der die Durchführung des im Arbeitsordnungs- und Heimarbeitsgesetz niedergelegten Vertrags- und Lohnschutzes obliegt, wurden im Deutschen Reich im Jahre 1933 die Treuhänder der Arbeit bestellt, die aber in vielen Fragen mit der Gewerbeaufsicht zusammenarbeiten; dadurch kann sich die Gewerbe- und Bergwerksaufsicht ihrem vornehmsten Wirkungskreis, dem Betriebsschutz, völlig widmen, und sie wird von mancher Kleinarbeit entlastet. ",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 2695,
+    "end": 2948,
+    "text": " Neuere Gesetze sind im Deutschen Reich die Anordnung über die Verteilung von Arbeitskräften vom 28. August 1934, die Erlassung von Betriebsordnungen und der aufschiebende Schutz gegen Massenentlassungen auf Grund des vorerwähnten Arbeitsordnungsgesetzes.\nI",
+    "labels": [
+      "Government Role",
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 2950,
+    "end": 3100,
+    "text": "\nIn Österreich gibt es seit dem Jahre 1907 statt der Betriebsordnungen die Arbeitsordnungen in fabriksmäßigen Betrieben, gemäß § 88a der Gewerbeordnung. N",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 3102,
+    "end": 3266,
+    "text": " Neu erlassen wurde in Deutschland ein Heimarbeitsgesetz vom 23. März 1934, ein Nachtbackverbot für Bäckereien vom 26. September 1934 (in Österreich schon seit 1919). I",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 3268,
+    "end": 3619,
+    "text": " Im Deutschen Reich gibt es auch ein absolutes Streikverbot und keine gesetzliche Urlaubsregelung — in Österreich besteht schon seit 1919 ein Arbeiterurlaubsgesetz —, die Urlaubsregelung wird in den Tarifordnungen, die unseren Kollektivverträgen entsprechend, vereinbart. In Österreich sind Streiks aus wirtschaftlichen Gründen nicht gesetzlich verboten. ",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 3622,
+    "end": 3920,
+    "text": " In Österreich ist außerdem die Kinderarbeit in den gewerblichen Betrieben neu geregelt worden (BG vom 13. Juli 1935). Auch der berufsständische Aufbau Österreichs greift in den Arbeitsschutz ein; für die Arbeiter wurde schon am 2. März 1934 der Gewerkschaftsbund als Interessenvertretung geschaffen.\nR",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 3124,
+    "end": 3134,
+    "text": " Deutschland e",
+    "labels": [
+      "International Dimension"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 2392,
+    "end": 2406,
+    "text": " Deutschen Reich i",
+    "labels": [
+      "International Dimension"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 3922,
+    "end": 4103,
+    "text": "\nRecht verzweigt ist im Deutschen Reich die Gesetzgebung auf dem Gebiete des technischen Gefahrenschutzes, da dort etwa dreitausend reichs- und landesrechtliche Vorschriften bestehen. I",
+    "labels": [
+      "Legal Framework",
+      "Technological Change"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 4105,
+    "end": 4315,
+    "text": " In Österreich ist dagegen diese Gesetzgebung, der sogenannte Betriebsschutz, einzig und allein Bundessache und daher viel übersichtlicher gestaltet und in der Praxis leichter zu handhaben als im Deutschen Reich.\nE",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_14101936",
+    "start": 4346,
+    "end": 4857,
+    "text": " Der Arbeitsschutz schreitet in Österreich und in Deutschland im Sinne der Gemeinschaftsarbeit vorwärts, die den Arbeiter nicht bloß als Lohnempfänger, sondern als getreuen Mitarbeiter wertet. Die autoritären staatshoheitlichen Anordnungen auf dem Gebiete des Arbeitsschutzes müssen von einem hohen sozialwirtschaftlichen Standpunkt zum gemeinsamen Wohl getroffen werden. „Gemeinnutz geht vor Eigennutz“ ist die sozialpolitische Erkenntnis zur Erhaltung der Arbeitskraft der unselbständig erwerbenden Bevölkerung.\nD",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 277,
+    "end": 538,
+    "text": " Er begann ihn mit der Frage, ob sich durch die jüngsten Ereignisse an dem Verhältnis zwischen Arbeiterschaft und Arbeitgebern Wesentliches geändert habe. Die sichtbaren Änderungen beziehen sich vorläufig bloß auf das Politische, weniger auf das Berufsständische.\nW",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 636,
+    "end": 984,
+    "text": " Wir befinden uns im Zustand der Klassengesellschaft, auf der einen Seite die Arbeitgeber, auf der andern Seite die Arbeitnehmer oder Arbeitssucher. Diese Klassengesellschaft drückte ihren Charakter dem ganzen Leben auf: dem Kultur-, dem politischen und dem Wirtschaftsleben. Am stärksten hat sich dieser Zustand im wirtschaftlichen Leben ausgewirkt.\nD",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 986,
+    "end": 1150,
+    "text": "\nDie erste Gemeinschaft ist die der Familie. Und gerade diese wichtigste Gemeinschaft hat in den letzten siebzig, achtzig Jahren die schwerste Erschütterung erfahren. D",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 1152,
+    "end": 1414,
+    "text": " Die industrielle Ausweitung der Arbeitsstätten mit ihrer Lohnpolitik hat die Frau aus der Familie gerissen, hat die Kinder durch Kinderarbeit gleichfalls der Familie entzogen und so der ersten und wichtigsten Gemeinschaft, der Familie, den stärksten Stoß gegeben. U",
+    "labels": [
+      "Gender",
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 1416,
+    "end": 1525,
+    "text": " Und durch diese Erkrankung der Familie haben sich die Krankheitskeime auf die ganze Gesellschaft ausgebreitet.\nD",
+    "labels": [
+      "Health"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 1527,
+    "end": 1820,
+    "text": "\nDie Träger der alten Wirtschaftsverfassung, die in den Zünften ihren hervorragendsten Ausdruck fand, hatten ihre Zeit nicht erkannt; so war auf die damalige Enge der Wirtschaftsordnung die Reaktion des unbeschränkten Individualismus gefolgt, der wiederum den Gedanken des Sozialismus geboren hat.",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 1824,
+    "end": 2037,
+    "text": " Die Sehnsucht nach Glück war es, die breite Arbeitermassen fast widerstandslos in die Arme des Marxismus geführt hat. Auch dagegen ist nun in den letzten Jahren die Sehnsucht nach einer neuen Ordnung wach geworden.\nW",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 1910,
+    "end": 1935,
+    "text": " Arme des Marxismus geführt h",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 2071,
+    "end": 2390,
+    "text": " Wir gehen von der Gesellschaft aus, in der wir uns befinden. Schon vor dem Kriege haben wir kein reines System des Individualismus oder des Kapitalismus gehabt, sondern einen aus verschiedenen Elementen gemischten Zustand: Reste der liberalen Gesellschaftsordnung, die man im Wirtschafts- wie im Kulturleben gespürt hat. D",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 2392,
+    "end": 2572,
+    "text": " Dazu kamen die Eingriffe des Staates und die starken Organisationen der Arbeitgeber und der Arbeitnehmer. Alles, was sich da zusammenschloß, trug den Stempel der Klassengesellschaft.\n",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 2639,
+    "end": 2666,
+    "text": " von Natur aus zusammengehört u",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 2719,
+    "end": 2865,
+    "text": " werden wir die Neuordnung machen. Wir werden aber keine neue Gesellschaft aufbauen können, wenn wir nicht auch die Religion als Faktor einbeziehen.\nW",
+    "labels": [
+      "Ideological Framing",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 2867,
+    "end": 3137,
+    "text": "\nWelche Rolle soll nun der Arbeitgeber spielen? Er soll aufhören, nur Arbeitgeber zu sein, und wieder Unternehmer werden. Darum sollen wieder die mittleren Betriebe mit ihrer persönlichen Führung in den Vordergrund kommen, die Anonymität der Unternehmer aber zurückrücken.\nD",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 3139,
+    "end": 3519,
+    "text": "\nDas zweite ist die Regelung des Arbeitsverhältnisses. Die autoritäre Regelung, der man in Deutschland das Wort redet, ist nicht das richtige Mittel; denn die Hoheit des Staates kann nicht bei jedem Anlaß eingesetzt werden. Arbeitgeber und Arbeitnehmer müssen sich miteinander verständigen; denn wenn das nicht gelänge, wären wir wieder bei den alten Klassenkämpfen und Gegensätzen.\nD",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 3521,
+    "end": 3829,
+    "text": "\nDas dritte ist, daß der Arbeiterschaft dort eine Führung zukommen soll, wo in erster Linie die Interessen der Arbeiter allein berührt werden; zum Beispiel in allen Fürsorgeeinrichtungen und in allen Einrichtungen der sozialen Sicherung. Da muß der Arbeiter eingreifen können, und ihm muß die Führung gebühren.\nD",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 3489,
+    "end": 3502,
+    "text": " Klassenkämpfen u",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 3663,
+    "end": 3756,
+    "text": " zum Beispiel in allen Fürsorgeeinrichtungen und in allen Einrichtungen der sozialen Sicherung. D",
+    "labels": [
+      "Government Role"
+    ]
+  },
+  {
+    "document": "Neues_Wiener_Tagblatt_28021934",
+    "start": 3933,
+    "end": 4177,
+    "text": " Frankreich, Belgien und Holland über den Neuaufbau Österreichs gehalten hat, von den Zuhörern aufmerksam gemacht wurde, daß alle von Österreich die Neugestaltung der Gesellschafts- und Wirtschaftsordnung als Beispiel für andere Staaten erwarten.",
+    "labels": [
+      "International Dimension"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 72,
+    "end": 105,
+    "text": "]\nSpielzeugschnitzerei im Erzgebirge\n",
+    "labels": [
+      "International Dimension"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 107,
+    "end": 264,
+    "text": "e\nAls vor mehreren hundert Jahren das Schnitzen hölzerner Gegenstände im Erzgebirge seinen Anfang nahm, wurde diese Arbeit ausschließlich von Männern betrieben. ",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 475,
+    "end": 561,
+    "text": ". Da wurde diese Beschäftigung in der Hauptsache Frauen-, ja teilweise sogar Kinderarbeit.",
+    "labels": [
+      "Gender",
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 564,
+    "end": 845,
+    "text": ". Heute ist in der erzgebirgischen Spielwarenheimindustrie die Arbeitsteilung innerhalb der Familie auf unbedingte Zweckmäßigkeit scharf eingestellt. Während der Mann die schwerere Arbeit des Drechselns verrichtet, werden die kleineren Nebenarbeiten von Frauen und Kindern ausgeführt.\n",
+    "labels": [
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 816,
+    "end": 845,
+    "text": "n Frauen und Kindern ausgeführt.\n",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 1068,
+    "end": 1166,
+    "text": ". Dabei ist Frauen- und Kinderarbeit nicht verwendbar; hier ist die kräftigere Hand des Mannes nötig. ",
+    "labels": [
+      "Gender"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 1168,
+    "end": 1610,
+    "text": ". Übrigens stirbt dieser Arbeitszweig aus: Jüngere Kräfte beschäftigen sich nicht mehr dafür. Es sind aber Ansätze genug vorhanden, die hoffen lassen, daß die Entwicklung von billiger Massen-Spielware zu Qualitätsspielzeug auch in den Spielwarendörfern des oberen Erzgebirges möglich ist, wenn die vorhandenen Arbeitskräfte die erforderliche Schulung und Pflege finden. Für die armen, oft darbenden Erzgebirgler tut solche Fürsorge dringend not.\n",
+    "labels": [
+      "Economic Context"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 1341,
+    "end": 1389,
+    "text": "n billiger Massen-Spielware zu Qualitätsspielzeug au",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 1612,
+    "end": 1635,
+    "text": ".\nIdeale der Frauenbildung\n",
+    "labels": [
+      "Education",
+      "Gender"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 1727,
+    "end": 2137,
+    "text": "e hob den begrifflichen und sprachlichen Zusammenhang von Ideal und Bildung, ausgehend von Platons Ideenlehre, hervor, stellte dem orientalischen Frauenideal, das bei den Chinesen in den Forderungen nach Zurückgezogenheit, Sanftmut, Schamhaftigkeit gipfelt, das westliche gegenüber — z. B. in Sparta: Söhne zu gebären und zum Kampf zu erziehen. In Athen berührten sich beide Welten durch das Herüberwirken Asiens.\n",
+    "labels": [
+      "Gender",
+      "Ideological Framing",
+      "International Dimension",
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 2139,
+    "end": 2266,
+    "text": ".\nDas christliche Frauenideal wird an Maria und Martha, Magdalena, bei den Heiligen Paula, Monika, Genoveva, Elisabeth verkörpert. ",
+    "labels": [
+      "Gender",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 2268,
+    "end": 2474,
+    "text": ". In der Renaissancezeit trat die Persönlichkeit mehr hervor: Vittoria Colonna und ihr Gegenbild: Lukrezia Borgia; in der des Pietismus: hausmütterliche Frömmigkeit; in der Aufklärungszeit: die „schöne Seele“. ",
+    "labels": [
+      "Gender",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 2477,
+    "end": 2640,
+    "text": " Die Gegenwart hat andere Typen ausgebildet, denen nachgestrebt wird: Nora — der Mittelpunkt von Ibsens „Puppenheim“ —, andererseits die Sport- und die Geschäftsfrau. ",
+    "labels": [
+      "Gender",
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 2642,
+    "end": 2816,
+    "text": ". Die Flucht von der Weiblichkeit leitet über zu einem allgemein-menschlichen Ideal, bei dem Gewissenhaftigkeit in der Arbeit und Anspruchslosigkeit Hauptmerkmale bilden sollten.",
+    "labels": [
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Reichspost_16081928",
+    "start": 2819,
+    "end": 2902,
+    "text": ". Das Ideal der Frauenbildung bleibt aber eine solche auf weltanschaulicher Grundlage.",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 120,
+    "end": 152,
+    "text": "\n„Schülerauslese“ in Sowjetrußland\nJ",
+    "labels": [
+      "International Dimension"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 155,
+    "end": 494,
+    "text": "Jeder Zeitgenosse kennt nachgerade die Locktöne, mit denen die sozialistische Agitation und Presse sich als die berufensten und humansten Schützer und Freunde der von Eltern, Lehrern und anderen „geknechteten“ Jugend anzunehmen pflegen, wenn es gilt, der noch immer nicht ganz ausgerotteten Autorität in irgendeiner Form Widerpart zu bieten. D",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 217,
+    "end": 240,
+    "text": " sozialistische Agitation u",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 496,
+    "end": 560,
+    "text": " Dafür ist die Parteiautorität ein umso unantastbareres Heiligtum. W",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 818,
+    "end": 824,
+    "text": "„Genosse G",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 833,
+    "end": 1685,
+    "text": " Das Schuljahr fängt an. Wir — Kinder, die die siebenjährige Schule absolviert haben — sehnen uns danach, in den Fachschulen Aufnahme zu finden, um zu lernen. Das ist ganz natürlich und so notwendig für uns, auch für die Gesellschaft und den Staat. Aber o weh! Wir sind Kinder der Menschen von früher, und uns sind überall die Türen verschlossen: zur Schule, zum Dienst, zur Arbeit; wir sind in unserem Leben über Bord geworfen. Weshalb? Nur deshalb, weil wir von einem der Sowjetmacht fremden Element gezeugt und geboren sind. Wir bedauern es, daß wir nicht selbst unsere Eltern aussuchen und damit ein Recht auf weitere Existenz erwerben konnten. Es wird uns keine Möglichkeit gegeben zu lernen, dienen dürfen wir nicht, wir werden zu keiner Arbeit zugelassen, es wird uns kein Land zur Bearbeitung zugewiesen. Was sollen wir tun? Wie sollen wir leben? S",
+    "labels": [
+      "Ideological Framing",
+      "Social Attitudes"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 1687,
+    "end": 2435,
+    "text": " Sie beobachten das Leben — haben Sie aber schon etwas über diese Frage, die Frage der leidenden Kinderseele, gehört oder nicht? Oder finden Sie in sich den staatsbürgerlichen Mut nicht, über diese Frage zu schreiben, und schließen Sie die Augen? Unter dem zaristischen Regime haben Sie alles riskiert und haben alle Eiterbeulen der Gesellschaft bloßgelegt, und jetzt machen Sie die Augen zu und wollen mit Ihrem wirksamen Wort die völlig ungerechte Quälerei völlig unschuldiger Kinder nicht sehen. Wir können nicht weiter so leben; diese Qual ist unerträglich — das ist Sadismus. Solche Kinder muß man vernichten. Wir haben doch kein Verbrechen begangen; warum müssen wir so grausam gestraft werden? Fluch über die Stunde, in der wir geboren wurden! E",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 2539,
+    "end": 3112,
+    "text": "\nWas Genosse Gorki dazu gesagt oder getan haben mag, ist nicht einmal seinen Freunden in der „Neuen Erziehung“, dem Organ der „Entschiedenen Schulreformer“, bekannt. Waldemar Zeltner, auch ein entschiedener Schulreformer, möchte die peinliche Situation dadurch retten, daß er darauf hinweist, die „bürgerlichen“ Zeitungen hätten seinerzeit, als eine 12- bis 16stündige Kinderarbeit geduldet wurde (in der Blütezeit des Manchestertums), auch ganz brav geschwiegen. Was natürlich nicht wahr ist. Gerade die katholische Presse jener Zeit hat die Kinderarbeit energisch bekämpft.\nD",
+    "labels": [
+      "Education",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 3114,
+    "end": 3329,
+    "text": "\nDie nackte Barbarei liegt im russischen Beispiel, wie nicht leicht einmal, offen zutage; ehrlich und hemmungslos zeigen die satanischen Züge im Angesicht des Bolschewismus in diesem Dokument die Schande unserer Zeit.\nD",
+    "labels": [
+      "Ideological Framing",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Reichspost_18061931",
+    "start": 3272,
+    "end": 3284,
+    "text": " Bolschewismus i",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_20031937",
+    "start": 78,
+    "end": 126,
+    "text": "3\nNeuregelung der Kinderarbeit in Niederösterreich.\n",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Reichspost_20031937",
+    "start": 128,
+    "end": 747,
+    "text": ".\nIm Landtag von Niederösterreich berichtete heute Abg. Latschenberger namens des Verfassungsausschusses über einen Gesetzentwurf zur Regelung der Kinderarbeit in der Land-und Forstwirtschaft. Das Gesetz, das angenommen wurde und mit dem Tage seiner Kundmachung in Kraft tritt, wiederholt als Ausführungsgesetz des Landes zum Rahmengesetz des Bundes über die Kinderarbeit vom Jahre 1935 zum Teil dessen wichtigste Bestimmungen, doch wurden auch einige bewährte Bestimmungen aus dem Kinderarbeitsgesetz vom Jahre 1918 übernommen. Dem Entwurf haben sowohl die I.-S. Landwirtschaftskammer als der N.-Ö. Bauernbund zugestimmt.\n",
+    "labels": [
+      "Legal Framework"
+    ]
+  },
+  {
+    "document": "Reichspost_20031937",
+    "start": 749,
+    "end": 1225,
+    "text": ".\nDem Gesetz zufolge dürfen Kinder vor dem vollendeten 14. Lebensjahr in der Land- und Forstwirtschaft nur nach Maßgabe besonderer Bestimmungen zur Arbeit verwendet oder sonst beschäftigt werden, und zwar nur insoweit, als sie dadurch in ihrer Gesundheit nicht geschädigt, in ihrer körperlichen oder geistigen Entwicklung oder in ihrer Sittlichkeit nicht gefährdet, in der Erfüllung ihrer religiösen Pflichten nicht behindert und im Besuch der Schule nicht beeinträchtigt werden.\n",
+    "labels": [
+      "Legal Framework",
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Reichspost_20031937",
+    "start": 1227,
+    "end": 2847,
+    "text": ".\nÜberhaupt verboten ist die Kinderarbeit in Steinbrüchen und Gruben, Ziegeleien, Kalkbrennereien, Gipsbrennereien, Mühlen, Sägewerken, beim Verkauf gebrannter geistiger Getränke, in Brennereien und Kellereien. Das Gesetz zählt ferner noch eine Reihe von Beschäftigungen auf, wie z. B. Bedienung von Kraftmaschinen, Bau- und Erdarbeiten, Hausschlachtungen, Steinklopfen, Holzfällen und Holzschlagen, Dreschen, Mähen, Hilfsdienste bei Treibjagden usw., bei denen Kinder unter 14 Jahren ebenfalls nicht verwendet werden dürfen.\nIm Übrigen ist die Verwendung von Kindern in der Landwirtschaft vor dem vollendeten zehnten Lebensjahre, in der Forstwirtschaft vor dem vollendeten zwölften Lebensjahre verboten. Nach dem vollendeten zehnten Lebensjahre dürfen Kinder in der Landwirtschaft zu leichten Arbeiten verwendet werden. Das Gesetz regelt des weiteren die Entlohnung, die Ruhezeit und die Gesamtarbeitszeit der in der Land- und Forstwirtschaft verwendeten Knaben und Mädchen.\nFremde Kinder dürfen — wenn die Verwendung länger als zwei aufeinander folgende Wochen dauert — nur mit besonderer Bewilligung herangezogen werden. Diese wird durch Ausstellung einer Arbeitskarte erteilt. Der Arbeitgeber muß auch die Gewähr dafür bieten, daß das Kind anläßlich seiner Verwendung weder in religiös-sittlicher oder vaterländischer Beziehung ungünstig beeinflußt, noch in seiner Gesundheit geschädigt wird. Die Lehrer, die Ärzte sowie die Religionslehrer sind berufen, Wahrnehmungen über die Verletzung von Vorschriften des Gesetzes den zuständigen Behörden und Organen mitzuteilen und Anträge zur Behebung von Mißständen zu stellen.",
+    "labels": [
+      "Legal Framework",
+      "Workplace"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 37,
+    "end": 71,
+    "text": "Die Haltung der Christlich-Sozialen wi",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 158,
+    "end": 308,
+    "text": "Unsere Vergangenheit wurde ausgefüllt von dem unerbittlichen und rastlosen Kampfe gegen Liberalismus und Judentum, die Erzfeinde jeder sozialen Reform.\nDi",
+    "labels": [
+      "Political Affiliation"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 204,
+    "end": 238,
+    "text": "unerbittlichen und rastlosen Kampfe ge",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 246,
+    "end": 257,
+    "text": "Liberalismus un",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 263,
+    "end": 270,
+    "text": "Judentum, d",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 277,
+    "end": 307,
+    "text": "Erzfeinde jeder sozialen Reform.\nD",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 463,
+    "end": 615,
+    "text": "Fortan müssen wir mit der gleichen Energie das eigentliche Ziel, die dauernde und ausgiebige Besserung der Lage der arbeitenden Klassen, ins Auge fassen.\nDa",
+    "labels": [
+      "Class and Social Hierarchy"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 617,
+    "end": 744,
+    "text": "Das ist die heilige Aufgabe der christlich-sozialen Partei und nur soweit sie dieselbe zu erfüllen vermag, hat sie eine Zukunft.\nUn",
+    "labels": [
+      "Political Affiliation",
+      "Religion and Morality"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 746,
+    "end": 1098,
+    "text": "Unsere Partei ist jünger als die Sozialdemokratie und ist deren einzig ernsthafte Rivalin. Sie hat sich einerseits als warnendes Beispiel die Unfruchtbarkeit der Sozialdemokratie vor Augen zu halten, die seit ihrem Bestande nur von der Unzufriedenheit der Volksmassen ihre Kraft zieht und zur Linderung ihrer Not auch nicht das Mindeste beigetragen hat.\nUn",
+    "labels": [
+      "Ideological Framing"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 982,
+    "end": 1012,
+    "text": "Unzufriedenheit der Volksmassen ih",
+    "labels": [
+      "Metaphore"
+    ]
+  },
+  {
+    "document": "Reichspost_31121905_02",
+    "start": 1100,
+    "end": 1487,
+    "text": "Unsere Partei muß sich andererseits ehrlich und offen eingestehen, daß ihre bisherigen positiven sozialen Leistungen: Abkürzung der Arbeitszeit, Abschaffung der Kinderarbeit, Einschränkung der Arbeit der Frauen und der jugendlichen Personen, Unfall- und Krankenversicherung zwar krasse Uebelstände beseitigt haben, aber den Kernpunkt der sozialen Frage der Gegenwart, noch nicht berühren.\nDi",
+    "labels": [
+      "Labor Movement"
+    ]
+  },
+  {
+    "document": "Wiener_Zeitung_28121918_03",
+    "start": 36,
+    "end": 13661,
+    "text": "\nGesetz vom 19. Dezember 1918 über die Kinderarbeit\nDie Provisorische Nationalversammlung des Staates Deutschösterreich hat beschlossen:\n§ 1 — Wirkungskreis des Gesetzes\nKinder im Sinne dieses Gesetzes, das sind Knaben und Mädchen vor dem vollendeten 14. Lebensjahr, dürfen nur nach Maßgabe dieses Gesetzes zur Arbeit (Kinderarbeit) verwendet oder sonst beschäftigt werden.\n§ 2 — Begriff der Kinderarbeit\nAls Kinderarbeit gilt die entgeltliche und die, wenn auch nicht besonders entlohnte, regelmäßige Verwendung von Kindern zu Arbeiten jeglicher Art.\nAls Kinderarbeit gilt nicht die Beschäftigung von Kindern, die ausschließlich zu Zwecken des Unterrichtes oder der Erziehung erfolgt; ferner nicht die Heranziehung von Kindern zu vereinzelten Dienstleistungen und nicht die Beschäftigung eigener Kinder (§ 3) mit leichten, wenn auch regelmäßigen Leistungen von geringer Dauer im Haushalte.\nWenn das Gesetz von Verwendung der Kinder spricht, ist Verwendung zu Kinderarbeit gemeint.\n§ 3 — Eigene und fremde Kinder\nAls eigene Kinder im Sinne dieses Gesetzes gelten Kinder, die im gemeinsamen Haushalt mit jenem, der sie beschäftigt, leben und mit ihm bis zum vierten Grade verwandt oder verschwägert sind oder zu ihm im Verhältnis von Wahlkindern, Mündeln oder Pflegekindern stehen.\nAlle übrigen gelten als fremde Kinder.\n§ 4 — Allgemeine Beschränkung\nKinder dürfen nur insoweit verwendet oder sonst beschäftigt werden, als sie dadurch in ihrer Gesundheit nicht geschädigt, in ihrer körperlichen und geistigen Entwicklung oder in ihrer Sittlichkeit nicht gefährdet und in der Erfüllung ihrer Schulpflicht nicht behindert werden.\n§ 5 — Verbotene Betriebsstätten und Beschäftigungen\nIn den Betriebsstätten, die in dem beigeschlossenen Verzeichnis angeführt sind, dürfen Kinder nicht verwendet oder sonst beschäftigt werden; zu den dort angeführten Beschäftigungen dürfen sie nicht herangezogen werden.\nEs bleibt dem Staatsrate vorbehalten, dieses Verzeichnis zu ergänzen und andere weitergehende Beschränkungen der Verwendung und sonstiger Beschäftigung von Kindern zu verfügen.\n§ 6 — Lohnschutz\nInsoweit das Entgelt für die Arbeit fremder Kinder (§ 3) in Geldlohn besteht, dürfen in Anrechnung auf diesen bloß Wohnung, Kleidung, Lebensmittel, endlich Schulrequisiten zugewendet werden. Der hiebei angerechnete Preis darf die Beschaffungskosten nicht übersteigen.\nDie Verabreichung von geistigen Getränken an Kinder als Entgelt für ihre Arbeit ist untersagt. Gebrannte geistige Getränke und Tabak dürfen während oder anläßlich der Arbeit überhaupt nicht verabreicht werden.\n§ 7 — Altersgrenze für die Verwendung von Kindern\nDie Verwendung von Kindern vor dem vollendeten zwölften Lebensjahr ist verboten.\nNur in der Landwirtschaft und im Haushalt dürfen Kinder schon nach dem vollendeten zehnten Lebensjahr zu leichten Arbeiten verwendet werden.\n§ 8 — Nachtruhe\nIn der Landwirtschaft und im Haushalt ist den Kindern während der Nachtzeit eine ununterbrochene Ruhe von 10 Stunden im Winter (in den Monaten Oktober bis einschließlich März) und von 9 Stunden im Sommer (in den Monaten April bis einschließlich September) zu gewähren.\nAls Zeit der Nachtruhe haben im Winter die Stunden zwischen 8 Uhr abends und 6 Uhr morgens, im Sommer die Stunden zwischen 9 Uhr abends und 5 Uhr morgens zu gelten; die Landesregierungen werden ermächtigt, abweichend von dieser Regel, ohne Verkürzung des gesetzlich bestimmten Ausmaßes der ununterbrochenen Nachtruhe, eine andere Abgrenzung des letzteren festzusetzen.\nIm übrigen Zweige der Kinderarbeit ist die Beschäftigung der Kinder zwischen 8 Uhr abends und 6 Uhr morgens verboten.\n§ 9 — Verwendung an Schul- und schulfreien Tagen; Tagesruhe\nAn Schultagen dürfen Kinder nicht länger als drei Stunden verwendet werden. Die Verwendung vor dem Vormittagsunterricht und während der dem Nachmittagsunterricht unmittelbar vorangehenden zwei Stunden ist verboten.\nIn der Landwirtschaft und im Haushalt beschränkt sich das Verbot allgemein auf die dem Unterricht unmittelbar vorangehenden zwei Stunden. Nach Schluß des Unterrichtes ist eine Stunde arbeitsfrei zu halten.\nAn schulfreien Tagen darf die Arbeit der Kinder nicht länger als vier, in der Landwirtschaft und im Haushalt nicht länger als sechs Stunden dauern.\nDie Verwendung an Sonntagen und an den für das Glaubensbekenntnis des Kindes gebotenen Feiertagen ist verboten.\n§ 10 — Ausnahmen\nAuf unaufschiebbare Arbeiten vorübergehender Natur, die aus öffentlichen Rücksichten oder in Notfällen (in der Landwirtschaft insbesondere zur Sicherung der gefährdeten Ernte) vorgenommen werden müssen, finden die Vorschriften über die Nachtruhe, über die Beschränkung der Arbeitszeit und über die Sonn- und Feiertagsruhe (§§ 8 und 9) keine Anwendung.\nIn der Landwirtschaft und im Haushalt ist es gestattet, die Kinder an Sonn- und gebotenen Feiertagen auch regelmäßig zu unaufschiebbaren Verrichtungen heranzuziehen.\n§ 11 — Verwendung im Gast- und Schankgewerbe\nIm Betriebe des Gast- und Schankgewerbes dürfen Kinder insbesondere nicht bei dem Anfüllen der Getränke und bei der Bedienung der Gäste verwendet werden.\n§ 12 — Beschäftigung bei öffentlichen Schaustellungen\nBei öffentlichen Schaustellungen und Aufführungen dürfen Kinder weder verwendet noch sonst beschäftigt werden.\nWenn ein besonderes Interesse des Unterrichtes, der Kunst oder Wissenschaft vorliegt, kann die Bezirksschulbehörde im einzelnen Falle nach Anhörung der Schulleitung eine Ausnahme gestatten und auch von der Beobachtung der in den §§ 8 und 9 vorgesehenen Verbote Nachsicht erteilen.\n§ 13 — Verwendung von Kindern in der Heimarbeit\nAuf die Arbeitsräume, in denen Kinder zur Heimarbeit verwendet werden, finden die Vorschriften des § 74 der Gewerbeordnung Anwendung.\n§ 14 — Beiträge aus öffentlichen Mitteln\nBeiträge aus öffentlichen Mitteln, die dürftigen Personen gewährt werden, gegen den Verzicht, ihre Kinder zur Arbeit zu verwenden, gelten nicht als Armenunterstützung.\n§ 15 — Anzeigepflicht bei Verwendung fremder Kinder\nWer fremde Kinder verwendet, hat dies der Gemeindebehörde seines Wohnsitzes ungesäumt unter Angabe der Art des Betriebes und der Verwendung sowie der allenfallsigen Arbeitsstätte der Kinder anzuzeigen.\nEr hat ein fortlaufend richtig geführtes Verzeichnis der verwendeten Kinder anzulegen und es zur jederzeitigen Einsicht der berufenen Aufsichtsorgane bereitzuhalten.\nBei der Kinderarbeit in der Landwirtschaft tritt die Pflicht zur Anzeige und zur Führung des Verzeichnisses erst dann ein, wenn die Verwendung länger als zwei aufeinanderfolgende Wochen dauert.\n§ 16 — Arbeitskarte\nWer fremde Kinder verwenden will — in der Landwirtschaft, wenn die Verwendung länger als zwei aufeinanderfolgende Wochen dauern soll —, hat vorher bei der Gemeindebehörde für jedes Kind eine besondere Arbeitskarte anzusprechen.\nDie Arbeitskarten werden von der Gemeindebehörde des Aufenthaltsortes des Kindes nach Anhörung seines gesetzlichen Vertreters und der zuständigen Schulleitung kosten- und stempelfrei ausgefolgt.\nDie einzelne Arbeitskarte wird höchstens auf ein Jahr ausgestellt; bei längerer Dauer des Arbeitsverhältnisses muß vor Ablauf des Jahres ihre Erneuerung angesprochen werden.\nHegt die Gemeindebehörde oder die von ihr vernommene Schulleitung Zweifel an der körperlichen oder geistigen Eignung des Kindes zu der betreffenden Arbeit, so ist auf Kosten des Arbeitgebers die amtsärztliche Untersuchung des Kindes zu veranlassen.\nDie Arbeitskarte ist zu verweigern, wenn die Arbeit nach dem Gutachten der Schulleitung oder des Arztes für die Sittlichkeit oder die körperliche oder geistige Entwicklung des Kindes schädlich ist oder wenn eine derartige Gefährdung mit Rücksicht auf die Person des Arbeitgebers zu befürchten ist. Beschwerden gegen die Verweigerung können innerhalb 14 Tagen bei der der Gemeindebehörde vorgesetzten politischen Behörde eingebracht werden, welche endgültig entscheidet.\nDer Arbeitgeber muß die Arbeitskarte während des Arbeitsverhältnisses aufbewahren und den berufenen Aufsichtsorganen (§ 17) auf Verlangen vorweisen.\nWenn das Arbeitsverhältnis gelöst wird oder das verwendete Kind aus dem Kindesalter tritt, so ist sie an dessen gesetzlichen Vertreter auszufolgen oder bei der Gemeindebehörde zu hinterlegen.\nDie näheren Bestimmungen über Form und Inhalt der Arbeitskarten werden vom Staatsamt für soziale Fürsorge erlassen. Die Vorschriften der Gewerbeordnung bleiben durch diese Anordnungen unberührt.\n§ 17 — Aufsicht\nDie Beobachtung der Vorschriften dieses Gesetzes ist durch die politischen Behörden erster Instanz zu überwachen.\nAußerdem werden zur Überwachung der Kinderarbeit besondere Inspektionsorgane bestellt, denen vor allem die Beaufsichtigung jener Betriebe obliegt, in denen Kinder verwendet werden.\nAuch können die Landesregierungen für die Gemeinden oder Bezirke besondere Kommissionen zur Überwachung der Kinderarbeit, zur Erstattung von Gutachten und Anträgen (§ 22) einsetzen.\nZur Unterstützung der politischen Behörden wie der Inspektionsorgane sind die Organisationen für Kinderschutz und Jugendfürsorge heranzuziehen. Die näheren Bestimmungen sind vom Staatsamt für soziale Fürsorge zu erlassen.\nDie Gemeindebehörden, Schulleitungen und Vormundschaftsräte sowie die Gewerbeinspektoren sind verpflichtet, im Rahmen ihres Wirkungskreises alle Aufsichtsorgane des Kinderschutzes bei der Erfüllung ihrer Aufgaben zu unterstützen.\nDie Lehrer an öffentlichen und privaten Schulen, die Ärzte, die Organe der Seelsorge und der öffentlichen und privaten Jugendfürsorge, die Funktionäre aller jener Vereine und sonstigen Körperschaften, in deren Wirkungskreis Angelegenheiten der Jugendfürsorge im weitesten Sinne des Wortes fallen, sind insbesondere berufen, Wahrnehmungen über die Verletzung von Vorschriften dieses Gesetzes den zuständigen Behörden und Organen mitzuteilen; auf Verlangen der politischen Behörden sind sie verpflichtet, Auskünfte über die Kinderarbeit im allgemeinen und über besondere Fälle der Verwendung von Kindern zu erteilen.\nGelangt die politische Behörde zur Kenntnis von Mißständen, so hat sie entsprechende Abhilfe zu treffen. Sie kann die Arbeitskarte entziehen, die Verwendung des Kindes untersagen oder an bestimmte Bedingungen knüpfen, erforderlichenfalls die Strafamtshandlung einleiten.\n§ 18 — Strafbestimmungen\nÜbertretungen der Vorschriften dieses Gesetzes werden, wenn sie nicht nach anderen Gesetzen einer strengeren Strafe unterliegen, von den politischen Behörden mit Geldstrafen bis zu 1000 Kronen oder mit Arrest bis zu zwei Monaten, die gesetzwidrige Verwendung eigener Kinder mit Verweis, bei erschwerenden Umständen mit Geldstrafen bis zu 300 Kronen oder mit Arrest bis zu 14 Tagen bestraft.\nWer einen anderen zu einer Übertretung dieses Gesetzes anstiftet oder bei ihrer Ausübung mitwirkt, unterliegt den gleichen Strafen wie der Täter.\nDie Ersatzstrafe für eine uneinbringliche Geldstrafe darf das Höchstmaß der daneben angedrohten Freiheitsstrafe nicht übersteigen.\nDie politische Behörde kann dem Straffälligen für eine bestimmte Zeit oder für immer die Verwendung fremder Kinder untersagen.\nSie kann diese Verwendung auch Personen verbieten, die von einem Gerichte wegen strafbarer Handlungen gegen die Sittlichkeit oder wegen Verletzung oder Gefährdung Unmündiger oder Jugendlicher oder von der Gewerbebehörde wegen gesetzwidriger Verwendung oder Behandlung von Kindern bestraft worden sind. Übertretungen eines solchen Verbotes werden ebenso bestraft wie Übertretungen der in diesem Gesetze enthaltenen Verbote.\nVon jeder Bestrafung wegen einer Übertretung dieses Gesetzes ist die Vormundschaftsbehörde des gefährdeten Kindes zu benachrichtigen.\n§ 19 — Verwendung der Geldstrafen\nDie nach diesem Gesetze verhängten Geldstrafen sind der Gemeinde des Aufenthaltsortes des Straffälligen zuzuweisen und von dieser zu Zwecken der öffentlichen Jugendfürsorge zu verwenden.\n§ 20 — Straflosigkeit infolge Verjährung\nDie Verfolgung wegen einer Übertretung dieses Gesetzes hat ohne weitere Bedingung zu entfallen, wenn der Schuldige nicht binnen sechs Monaten nach der Tat in Untersuchung gezogen worden ist oder wenn seit der letzten Untersuchungshandlung sechs Monate verstrichen sind.\n§ 21 — Vereinbarungen mit anderen Staaten\nDie Regierung wird ermächtigt, Vereinbarungen mit anderen Staaten in Wirksamkeit zu setzen, um die Anwendung der Vorschriften dieses Gesetzes im Auslande sicherzustellen.\n§ 22 — Wirksamkeitsbeginn, Übergangsbestimmungen, Ausnahmen\nDas Gesetz tritt drei Monate nach seiner Kundmachung in Wirksamkeit.\nFür das erste Jahr seiner Wirksamkeit sind die Landesregierungen ermächtigt, soweit nicht andere Vorschriften entgegenstehen, Erleichterungen in der Beobachtung des Gesetzes, welche durch zwingende Umstände begründet sind, einzuräumen.\nAußerdem können die politischen Behörden I. Instanz in besonders berücksichtigungswürdigen Fällen nach Anhörung des Ortsschulrates oder der gemäß § 17 Abs. 1 gebildeten Kommission Ausnahmen an den Bestimmungen der §§ 7 und 9 Abs. 2 unter den Vorsichten des § 4 für die Landwirtschaft und den Haushalt gewähren.\n§ 23 — Durchführung\nMit der Durchführung dieses Gesetzes wird das Staatsamt für soziale Fürsorge im Einvernehmen mit den anderen beteiligten Staatsämtern betraut.\nBeurkundung: Auf Grund des § 7 des Beschlusses der Provisorischen Nationalversammlung vom 30. Oktober 1918 über die grundlegenden Einrichtungen der Staatsgewalt wird beurkundet, daß der obige Beschluß von der Provisorischen Nationalversammlung am 19. Dezember 1918 gefaßt worden ist. — Der Präsident: Häuser m. p. — Der Staatskanzler: Renner m. p. — Der Staatsnotar: Sylvester m. p. — Wiener Zeitung, 28. 12. 1918, Seite 4.",
+    "labels": [
+      "Legal Framework"
+    ]
+  }
+]
